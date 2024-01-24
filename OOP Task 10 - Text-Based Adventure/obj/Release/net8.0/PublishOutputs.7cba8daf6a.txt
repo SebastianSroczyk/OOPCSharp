@@ -1,0 +1,5 @@
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\publish\OOP Task 10 - Text-Based Adventure.exe
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\publish\OOP Task 10 - Text-Based Adventure.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\publish\OOP Task 10 - Text-Based Adventure.deps.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\publish\OOP Task 10 - Text-Based Adventure.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\publish\OOP Task 10 - Text-Based Adventure.pdb

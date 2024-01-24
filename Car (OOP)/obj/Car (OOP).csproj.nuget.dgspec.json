@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Sebastian Sroczyk\\OneDrive - Dundee and Angus College\\collage\\VS Projects\\Exercises\\Car (OOP)\\Car (OOP)\\Car (OOP).csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sebastian Sroczyk\\OneDrive - Dundee and Angus College\\collage\\VS Projects\\Exercises\\Car (OOP)\\Car (OOP)\\Car (OOP).csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sebastian Sroczyk\\OneDrive - Dundee and Angus College\\collage\\VS Projects\\Exercises\\Car (OOP)\\Car (OOP)\\Car (OOP).csproj",
+        "projectName": "Car (OOP)",
+        "projectPath": "C:\\Users\\Sebastian Sroczyk\\OneDrive - Dundee and Angus College\\collage\\VS Projects\\Exercises\\Car (OOP)\\Car (OOP)\\Car (OOP).csproj",
+        "packagesPath": "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sebastian Sroczyk\\OneDrive - Dundee and Angus College\\collage\\VS Projects\\Exercises\\Car (OOP)\\Car (OOP)\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sebastian Sroczyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

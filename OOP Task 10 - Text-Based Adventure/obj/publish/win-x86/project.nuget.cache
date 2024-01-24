@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7YBSSR98wPzDR8J0JsKS9UD/9mv8B3k1JJUuXP4VHIL7ZhSvH7Q2VlxUO1enijPvNSkzDvfKg3JHEo/oUMDwbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\HND\\OOP\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.0\\microsoft.netcore.app.runtime.win-x86.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.0\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.0\\microsoft.aspnetcore.app.runtime.win-x86.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

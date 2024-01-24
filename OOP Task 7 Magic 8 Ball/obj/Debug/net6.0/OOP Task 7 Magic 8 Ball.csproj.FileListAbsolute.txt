@@ -1,0 +1,15 @@
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\bin\Debug\net6.0\OOP Task 7 Magic 8 Ball.exe
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\bin\Debug\net6.0\OOP Task 7 Magic 8 Ball.deps.json
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\bin\Debug\net6.0\OOP Task 7 Magic 8 Ball.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\bin\Debug\net6.0\OOP Task 7 Magic 8 Ball.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\bin\Debug\net6.0\OOP Task 7 Magic 8 Ball.pdb
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.csproj.AssemblyReference.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\refint\OOP Task 7 Magic 8 Ball.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.pdb
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\OOP Task 7 Magic 8 Ball.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 7 Magic 8 Ball\obj\Debug\net6.0\ref\OOP Task 7 Magic 8 Ball.dll

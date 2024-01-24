@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "inheritance2-overriding/1.0.0": {
+        "runtime": {
+          "inheritance2-overriding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "inheritance2-overriding/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

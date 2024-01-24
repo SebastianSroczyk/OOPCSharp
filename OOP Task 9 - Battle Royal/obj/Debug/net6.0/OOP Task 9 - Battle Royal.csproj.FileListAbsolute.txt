@@ -1,0 +1,28 @@
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.exe
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.deps.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\refint\OOP Task 9 - Battle Royal.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\ref\OOP Task 9 - Battle Royal.dll
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.exe
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.deps.json
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.runtimeconfig.json
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.dll
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\bin\Debug\net6.0\OOP Task 9 - Battle Royal.pdb
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.AssemblyInfoInputs.cache
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.AssemblyInfo.cs
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.csproj.CoreCompileInputs.cache
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.dll
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\refint\OOP Task 9 - Battle Royal.dll
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.pdb
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\OOP Task 9 - Battle Royal.genruntimeconfig.cache
+C:\Users\Kaktu\Desktop\GamesDev\OOP\OOP Task 9 - Battle Royal\obj\Debug\net6.0\ref\OOP Task 9 - Battle Royal.dll

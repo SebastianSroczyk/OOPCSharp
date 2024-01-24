@@ -1,0 +1,15 @@
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\bin\Debug\net6.0\inheritance2-overriding.exe
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\bin\Debug\net6.0\inheritance2-overriding.deps.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\bin\Debug\net6.0\inheritance2-overriding.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\bin\Debug\net6.0\inheritance2-overriding.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\bin\Debug\net6.0\inheritance2-overriding.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.sourcelink.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\refint\inheritance2-overriding.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\inheritance2-overriding.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\inheritance2-overriding\obj\Debug\net6.0\ref\inheritance2-overriding.dll

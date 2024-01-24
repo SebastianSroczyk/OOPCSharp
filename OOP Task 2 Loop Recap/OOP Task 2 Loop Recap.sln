@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Task 2 Loop Recap", "OOP Task 2 Loop Recap.csproj", "{9A71AF67-E07D-4D9A-90F1-4FA810CC3439}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A71AF67-E07D-4D9A-90F1-4FA810CC3439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A71AF67-E07D-4D9A-90F1-4FA810CC3439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A71AF67-E07D-4D9A-90F1-4FA810CC3439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A71AF67-E07D-4D9A-90F1-4FA810CC3439}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CDB2A99-8DEB-4235-8DF0-617563E43403}
+	EndGlobalSection
+EndGlobal

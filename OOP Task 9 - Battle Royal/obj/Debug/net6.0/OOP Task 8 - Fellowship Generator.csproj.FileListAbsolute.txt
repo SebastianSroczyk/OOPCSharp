@@ -1,0 +1,15 @@
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\bin\Debug\net6.0\OOP Task 8 - Fellowship Generator.exe
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\bin\Debug\net6.0\OOP Task 8 - Fellowship Generator.deps.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\bin\Debug\net6.0\OOP Task 8 - Fellowship Generator.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\bin\Debug\net6.0\OOP Task 8 - Fellowship Generator.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\bin\Debug\net6.0\OOP Task 8 - Fellowship Generator.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.csproj.AssemblyReference.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\refint\OOP Task 8 - Fellowship Generator.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\OOP Task 8 - Fellowship Generator.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 8 - Fellowship Generator\obj\Debug\net6.0\ref\OOP Task 8 - Fellowship Generator.dll

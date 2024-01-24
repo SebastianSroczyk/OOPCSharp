@@ -1,0 +1,15 @@
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\bin\Debug\net6.0\OOP task 6.exe
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\bin\Debug\net6.0\OOP task 6.deps.json
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\bin\Debug\net6.0\OOP task 6.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\bin\Debug\net6.0\OOP task 6.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\bin\Debug\net6.0\OOP task 6.pdb
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.csproj.AssemblyReference.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\refint\OOP task 6.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.pdb
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\OOP task 6.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP task 6\obj\Debug\net6.0\ref\OOP task 6.dll

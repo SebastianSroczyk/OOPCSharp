@@ -1,0 +1,15 @@
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\OOP Task 10 - Text-Based Adventure.exe
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\OOP Task 10 - Text-Based Adventure.deps.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\OOP Task 10 - Text-Based Adventure.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\OOP Task 10 - Text-Based Adventure.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\bin\Release\net8.0\OOP Task 10 - Text-Based Adventure.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.sourcelink.json
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\refint\OOP Task 10 - Text-Based Adventure.dll
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.pdb
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\OOP Task 10 - Text-Based Adventure.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\Desktop\HND\OOP\OOP Task 10 - Text-Based Adventure\obj\Release\net8.0\ref\OOP Task 10 - Text-Based Adventure.dll

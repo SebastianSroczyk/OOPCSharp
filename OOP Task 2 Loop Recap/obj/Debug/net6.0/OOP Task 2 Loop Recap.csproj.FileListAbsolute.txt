@@ -1,0 +1,15 @@
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\bin\Debug\net6.0\OOP Task 2 Loop Recap.exe
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\bin\Debug\net6.0\OOP Task 2 Loop Recap.deps.json
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\bin\Debug\net6.0\OOP Task 2 Loop Recap.runtimeconfig.json
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\bin\Debug\net6.0\OOP Task 2 Loop Recap.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\bin\Debug\net6.0\OOP Task 2 Loop Recap.pdb
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.csproj.AssemblyReference.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\refint\OOP Task 2 Loop Recap.dll
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.pdb
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\OOP Task 2 Loop Recap.genruntimeconfig.cache
+C:\Users\Sebastian Sroczyk\OneDrive - Dundee and Angus College\collage\VS Projects\MonoGameEngine\OOP Task 2 Loop Recap\obj\Debug\net6.0\ref\OOP Task 2 Loop Recap.dll
