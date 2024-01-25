@@ -2,6 +2,13 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "MonoGame.Content.Builder.Task/3.8.1.303": {
+        "type": "package",
+        "build": {
+          "build/MonoGame.Content.Builder.Task.props": {},
+          "build/MonoGame.Content.Builder.Task.targets": {}
+        }
+      },
       "MonoGame.Framework.DesktopGL/3.8.1.303": {
         "type": "package",
         "compile": {
@@ -47,10 +54,38 @@
             "rid": "win-x86"
           }
         }
+      },
+      "StudentGame/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MonoGame.Content.Builder.Task": "3.8.1.303",
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
+        "compile": {
+          "bin/placeholder/StudentGame.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentGame.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MonoGame.Content.Builder.Task/3.8.1.303": {
+      "sha512": "9Ilzzje62LhWElbPNEl7vh7XsRSbze+lvCJdZtTZUGu48FRgvYN6THURwIB9PN98EI33/Wnf6iuShNUtD7hL4Q==",
+      "type": "package",
+      "path": "monogame.content.builder.task/3.8.1.303",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/MonoGame.Content.Builder.Task.props",
+        "build/MonoGame.Content.Builder.Task.targets",
+        "monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+        "monogame.content.builder.task.nuspec"
+      ]
+    },
     "MonoGame.Framework.DesktopGL/3.8.1.303": {
       "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
       "type": "package",
@@ -72,11 +107,18 @@
         "runtimes/win-x86/native/SDL2.dll",
         "runtimes/win-x86/native/soft_oal.dll"
       ]
+    },
+    "StudentGame/1.0.0": {
+      "type": "project",
+      "path": "../StudentGame/StudentGame.csproj",
+      "msbuildProject": "../StudentGame/StudentGame.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MonoGame.Framework.DesktopGL >= 3.8.1.303"
+      "MonoGame.Content.Builder.Task >= 3.8.1.303",
+      "MonoGame.Framework.DesktopGL >= 3.8.1.303",
+      "StudentGame >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -111,7 +153,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\StudentGame.csproj": {
+              "projectPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\StudentGame.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -124,6 +170,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MonoGame.Content.Builder.Task": {
+            "target": "Package",
+            "version": "[3.8.1.303, )"
+          },
           "MonoGame.Framework.DesktopGL": {
             "suppressParent": "All",
             "target": "Package",

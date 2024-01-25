@@ -15,7 +15,7 @@ namespace StudentGame
             Settings.IsMouseVisible = false;
 
             // TODO: Use this code to set the initial screen
-            StartScreen<MyWorld>();
+            StartScreen<MainMenu>();
             base.Initialize();
         }
 
