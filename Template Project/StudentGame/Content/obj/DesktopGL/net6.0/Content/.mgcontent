@@ -4,17 +4,17 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/images/col1.png</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/images/col2.png</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/images/col3.png</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/images/Pixel.png</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/images/SimpleBackground.png</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/misc/Arial.spritefont</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/misc/BackgroundShader.fx</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/misc/ComicSans.spritefont</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/misc/GrayscaleEffect.fx</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/misc/Pixel.png</File>
-    <File>C:/Users/jimol/Desktop/Games Development OOP 2024/TileMapProject Updated/StudentGame/Content/misc/SpriteFill.fx</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/images/col1.png</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/images/col2.png</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/images/col3.png</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/images/Pixel.png</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/images/SimpleBackground.png</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/misc/Arial.spritefont</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/misc/BackgroundShader.fx</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/misc/ComicSans.spritefont</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/misc/GrayscaleEffect.fx</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/misc/Pixel.png</File>
+    <File>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/misc/SpriteFill.fx</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
