@@ -21,7 +21,10 @@ namespace StudentGame.Code.Screens
 
             //adds start button
             AddObject(new Button(), 600, 570);
-            
+
+            //adds the custom mouse
+            AddObject(new Mouse(), 0, 0);
+
             GameInput.SetMousePosition(core.GraphicsDevice.Viewport.Bounds.Center.ToVector2());
         }
         public override void Update(float deltaTime)
