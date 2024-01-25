@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+	<ItemGroup>
+	    <Compile Remove="Content\**" />
+	    <Compile Remove="libs\**" />
+	    <EmbeddedResource Remove="Content\**" />
+	    <EmbeddedResource Remove="libs\**" />
+	    <None Remove="Content\**" />
+	    <None Remove="libs\**" />
+	</ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" Visible="False" />
+    <EmbeddedResource Include="Icon.bmp" Visible="False" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGameEngine">
+		<HintPath>libs\MonoGameEngine.dll</HintPath>
+    </Reference>
+	<Reference Include="MonoGame.Extended">
+		<HintPath>libs\MonoGame.Extended.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Program.cs;app.manifest" Visible="False" />
+		<None Update="app.manifest" Visible="False" />
+	</ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+</Project>
