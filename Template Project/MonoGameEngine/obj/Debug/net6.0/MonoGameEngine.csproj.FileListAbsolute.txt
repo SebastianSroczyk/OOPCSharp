@@ -24,3 +24,17 @@ C:\Users\jimol\Desktop\TileMapProject\MonoGameEngine\obj\Debug\net6.0\MonoGameEn
 C:\Users\jimol\Desktop\TileMapProject\MonoGameEngine\obj\Debug\net6.0\refint\MonoGameEngine.dll
 C:\Users\jimol\Desktop\TileMapProject\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.pdb
 C:\Users\jimol\Desktop\TileMapProject\MonoGameEngine\obj\Debug\net6.0\ref\MonoGameEngine.dll
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\bin\Debug\net6.0\MonoGameEngine.xml
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\bin\Debug\net6.0\MonoGameEngine.deps.json
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\bin\Debug\net6.0\MonoGameEngine.dll
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\bin\Debug\net6.0\MonoGameEngine.pdb
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.csproj.AssemblyReference.cache
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.AssemblyInfoInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.AssemblyInfo.cs
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.sourcelink.json
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.dll
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\refint\MonoGameEngine.dll
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\MonoGameEngine.pdb
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\MonoGameEngine\obj\Debug\net6.0\ref\MonoGameEngine.dll

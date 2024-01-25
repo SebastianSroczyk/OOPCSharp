@@ -80,23 +80,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jimol\\.nuget\\packages\\": {},
+    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jimol\\Desktop\\Games Development OOP 2024\\TileMapProject Updated\\MonoGameEngine\\MonoGameEngine.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\MonoGameEngine\\MonoGameEngine.csproj",
       "projectName": "MonoGameEngine",
-      "projectPath": "C:\\Users\\jimol\\Desktop\\Games Development OOP 2024\\TileMapProject Updated\\MonoGameEngine\\MonoGameEngine.csproj",
-      "packagesPath": "C:\\Users\\jimol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jimol\\Desktop\\Games Development OOP 2024\\TileMapProject Updated\\MonoGameEngine\\obj\\",
+      "projectPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\MonoGameEngine\\MonoGameEngine.csproj",
+      "packagesPath": "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\MonoGameEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jimol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sebastian Sroczyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -146,7 +146,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
