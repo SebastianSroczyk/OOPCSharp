@@ -10,14 +10,6 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
-	<ItemGroup>
-	    <Compile Remove="Content\**" />
-	    <Compile Remove="libs\**" />
-	    <EmbeddedResource Remove="Content\**" />
-	    <EmbeddedResource Remove="libs\**" />
-	    <None Remove="Content\**" />
-	    <None Remove="libs\**" />
-	</ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icon.ico" Visible="False" />
     <EmbeddedResource Include="Icon.bmp" Visible="False" />
