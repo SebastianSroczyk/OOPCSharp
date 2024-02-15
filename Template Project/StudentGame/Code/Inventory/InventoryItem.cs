@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentGame.Code.GameObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -10,6 +11,7 @@ namespace StudentGame.Code.Inventory
     internal class InventoryItem
     {
 
+        private Player player;
         public int size {  get; set; }
         public string name { get; set; }
 
@@ -25,7 +27,7 @@ namespace StudentGame.Code.Inventory
             this.description = description;
             this.name = name;
         }
-        public virtual void use()
+        public virtual void USE(Player p)
         {
 
         }

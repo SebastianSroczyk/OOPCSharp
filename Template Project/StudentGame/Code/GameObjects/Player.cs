@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using MonoGameEngine.StandardCore;
+using StudentGame.Code.Inventory;
 using StudentGame.Code.Screens;
+using System;
 using System.Globalization;
 using System.Runtime.CompilerServices;
 
@@ -9,7 +11,12 @@ namespace StudentGame.Code.GameObjects
     internal class Player : GameObject
     {
         // Player Movement Settings
+        InventoryManager _inventoryManager {  get; set; }
+        InventoryItem _currentItem {  get; set; }
         public int MovementSpeed {  get; private set; }
+        public int PlayerHealth { get; set; }
+
+        public int PlayerDamage { get; set; }
 
         public Player() 
         {
@@ -24,6 +31,21 @@ namespace StudentGame.Code.GameObjects
 
             SetDrawDebug(true, Color.Black);
 
+            _inventoryManager = new InventoryManager();
+            _currentItem = new InventoryItem();
+
+            Weapon w = new Weapon(1,"Sword","A sword", 50);
+            _inventoryManager.addItem(w);
+            PlayerDamage = w.hitPoints;
+            _currentItem = w;
+
+
+            Potion p = new Potion(1,"Health Potion", "Coke", 10);
+            _inventoryManager.addItem(p);
+
+            PlayerHealth = 100;
+            
+
             
         }
 
@@ -35,6 +57,12 @@ namespace StudentGame.Code.GameObjects
 
         public override void Update(float deltaTime)
         {
+
+            // ---------------------For Debug Only------------------------------ 
+            Console.WriteLine(_inventoryManager.TakeItem(0).description);
+            Console.WriteLine(_inventoryManager.TakeItem(1).description);
+            // -----------------------------------------------------------------
+
             Movement();
             RemoveObejctOnCollision();
         }
