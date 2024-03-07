@@ -1,52 +1,44 @@
 ﻿using Microsoft.Xna.Framework;
 using MonoGameEngine.StandardCore;
-using StudentGame.Code.Inventory;
-using StudentGame.Code.Screens;
+using StudentGame.Code.GameObjects.Inventory;
 using System;
-using System.Globalization;
-using System.Runtime.CompilerServices;
 
 namespace StudentGame.Code.GameObjects
 {
     internal class Player : GameObject
     {
-        // Player Movement Settings
-        InventoryManager _inventoryManager {  get; set; }
-        InventoryItem _currentItem {  get; set; }
-        public int MovementSpeed {  get; private set; }
-        public int PlayerHealth { get; set; }
+        //Backpack
+        InventoryManager _inventoryManager { get; set; }
+        InventoryItem _currentItem { get;set; }
 
-        public int PlayerDamage { get; set; }
+        public int health { get; set; }
+        public int damage { get; set; }
 
-        public Player() 
-        {
+        private bool _collect = false;
+        private bool _attack = false;
 
-            SetSprite("Pixel");
-            GetSprite().SetScale(64, 64);
-            GetSprite().SetTint(Color.Aqua);
-
+        // Default Constructor
+        public Player(InventoryManager inventory)
+        { 
+            SetSprite("player");
             SetBounds(64, 64);
-            MovementSpeed = 5;
+
             Camera.Instance.Easing = 0;
 
             SetDrawDebug(true, Color.Black);
 
-            _inventoryManager = new InventoryManager();
-            _currentItem = new InventoryItem();
+            // Initialise Inventory manager
+            _inventoryManager = inventory ;
+            _currentItem = null;
 
-            Weapon w = new Weapon(1,"Sword","A sword", 50);
-            _inventoryManager.addItem(w);
-            PlayerDamage = w.hitPoints;
-            _currentItem = w;
+            health = 100; // initial health value
+            damage = 5;
+        }
 
-
-            Potion p = new Potion(1,"Health Potion", "Coke", 10);
-            _inventoryManager.addItem(p);
-
-            PlayerHealth = 100;
-            
-
-            
+        public override void Render(SpriteBatch spriteBatch)
+        {
+            base.Render(spriteBatch);
+           
         }
 
         public override void OnceAdded()
@@ -57,60 +49,143 @@ namespace StudentGame.Code.GameObjects
 
         public override void Update(float deltaTime)
         {
-
-            // ---------------------For Debug Only------------------------------ 
-            Console.WriteLine(_inventoryManager.TakeItem(0).description);
-            Console.WriteLine(_inventoryManager.TakeItem(1).description);
-            // -----------------------------------------------------------------
-
-            Movement();
-            RemoveObejctOnCollision();
-        }
-        
-
-        private void CollisionCheck()
-        {
-            if (IsAtScreenEdge())
-            {
-                RevertPosition();
-            }
+            GetInput();
+            Collisions();
+ 
         }
 
-        private void Movement()
+        private void GetInput()
         {
-            if (GameInput.IsKeyHeld("w"))
+            if(GameInput.IsKeyPressed("a"))
             {
-                SetPosition(GetX(), GetY() - MovementSpeed);
-                CollisionCheck();
+                Vector2 pos = new Vector2();
+                pos.X = GetX() - 4;
+                pos.Y = GetY();
+
+                SetPosition(pos);
             }
-            if (GameInput.IsKeyHeld("s"))
+
+            if(GameInput.IsKeyPressed("d"))
             {
-                SetPosition(GetX(), GetY() + MovementSpeed);
-                CollisionCheck();
+                Vector2 pos = new Vector2();
+                pos.X = GetX() +4;
+                pos.Y = GetY();
+
+                SetPosition(pos);
             }
-            if (GameInput.IsKeyHeld("a"))
+
+            if(GameInput.IsKeyPressed("w"))
             {
-                SetPosition(GetX() - MovementSpeed, GetY());
-                CollisionCheck();
+                Vector2 pos = new Vector2();
+                pos.X = GetX();
+                pos.Y = GetY() - 4;
+
+                SetPosition(pos);
             }
-            if (GameInput.IsKeyHeld("d"))
+
+            if(GameInput.IsKeyPressed("s"))
             {
-                SetPosition(GetX() + MovementSpeed, GetY());
-                CollisionCheck();
+                Vector2 pos = new Vector2();
+                pos.X = GetX();
+                pos.Y = GetY() + 4;
+
+                SetPosition(pos);
             }
+
+            //Check to see if the user has indicated collect 
+            // Set a boolean to hold the choice.
+            if(GameInput.IsKeyPressed("e"))
+            {
+                _collect = true;
+            }
+
+            // When the e key is released - turn of the collect flag
+            if(GameInput.IsKeyReleased("e"))
+            {
+                _collect = false;
+            }
+
+            // Display the inventory!
+            if(GameInput.IsKeyPressed("i"))
+            {
+                _inventoryManager._displayInventory = true;
+            }
+
+            if(GameInput.IsKeyReleased("i"))
+            {
+                _inventoryManager._displayInventory = false;
+            }
+
+            if(GameInput.IsKeyPressed("z"))
+            {
+                _currentItem = _inventoryManager.GetPreviousItem();
+            }
+
+            if(GameInput.IsKeyPressed("x"))
+            {
+                _currentItem = _inventoryManager.GetNextItem();
+            }
+
+            // C to drop an Item
+            if(GameInput.IsKeyPressed("c"))
+            {
+                _inventoryManager.RemoveItem(0);
+                _currentItem = null;
+            }
+
+            if(GameInput.IsKeyPressed("space"))
+            {
+                _attack = true;
+            }
+        }
+
+        private void Collisions()
+        {
+            GameObject go = (GameObject) GetOneIntersectingObject<GameObject>();
+
+            // If there's a collision with an inventory item then collect it
+            // 
+            if(_collect == true && go is InventoryItem) // Check if collision is true and...
+            {
+                InventoryItem ii = (InventoryItem)go;
+               PickUpItem(ii);
+            }
+
+            if(_attack == true && go is Monster)
+            {
+                Monster m = (Monster) go;
+                Attack(m);
+            }
+        }
+
+        public void UseItem()
+        {
+            if(_currentItem != null)
+                _currentItem.Use(this);            
+        }
+
+        public void Attack(Monster m)
+        {
             
         }
-        
-        
-        private void RemoveObejctOnCollision()
-        {
-            GameObject gameObject = GetOneIntersectingObject<Other>();
 
-            if (gameObject != null)
+        /**
+         * Code to pick up an item and add it to the backpack
+         */
+        public void PickUpItem(InventoryItem item)
+        {
+            if(_inventoryManager.AddItem(item))
             {
-                GetScreen().RemoveObject(gameObject);
-                Transition.Instance.ToScreen<OtherWorld>(TransitionType.Fade, fadeColour: Color.Black, 0.25f);
+                item.SetVisible(false); // hide the item because it's now in the inventory
+                item.SetPosition(new Vector2(0, 0)); // Update the position - if we drop it we'll need to change
+                _currentItem = item;
+                _collect = false;
             }
+        }
+
+        public void DropItem()
+        {
+
         }
     }
 }

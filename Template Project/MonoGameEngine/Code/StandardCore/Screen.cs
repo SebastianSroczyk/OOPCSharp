@@ -17,13 +17,15 @@ namespace MonoGameEngine.StandardCore
         private List<GameObject> _gameObjects;
 
         /// <summary>A collection of all the Text objects existing in this Screen. All new Text objects should be placed in this collection for automatic rendering.</summary>
-        private List<Text> _text;
+        //private List<Text> _text;
+        private Dictionary<string, Text> _text;
 
         /// <summary>A collection of all the GameObjects that have been flagged to be removed at the end of this frame. <em>CAUTION WHEN HANDLING</em>.</summary>
         private List<GameObject> _removedObjects;
 
         /// <summary>A collection of all the Text that have been flagged to be removed at the end of this frame. <em>CAUTION WHEN HANDLING</em>.</summary>
-        private List<Text> _removedText;
+        //private List<Text> _removedText;
+        private Dictionary<string, Text> _removedText;
 
         /// <summary>A collection of all the GameObjects that have been flagged to be added at the end of this frame. <em>CAUTION WHEN HANDLING</em>.</summary>
         private List<GameObject> _addedObjects;
@@ -60,8 +62,11 @@ namespace MonoGameEngine.StandardCore
             _addedObjects = new List<GameObject>();
             _backgrounds = new Background[10];
 
-            _text = new List<Text>();
-            _removedText = new List<Text>();
+            //_text = new List<Text>();
+            //_removedText = new List<Text>();
+
+            _text = new Dictionary<string, Text>();
+            _removedText = new Dictionary<string, Text>();
 
             try
             {
@@ -76,6 +81,8 @@ namespace MonoGameEngine.StandardCore
         /// <summary>
         /// Performs general cleanup for this class. Can be overriden to provide more bespoke cleanup functionality as needed.
         /// </summary>
+        ///       
+
         public virtual void End()
         {
             Camera.Instance.Position = Vector2.Zero;
@@ -99,7 +106,7 @@ namespace MonoGameEngine.StandardCore
             _addedObjects.Clear();
             _addedObjects = null;
 
-            for (int i = 0; i < _text.Count; i++)
+            /*for (int i = 0; i < _text.Count; i++)
                 _text[i] = null;
             _text.Clear();
             _text = null;
@@ -107,7 +114,11 @@ namespace MonoGameEngine.StandardCore
             for (int i = 0; i < _removedText.Count; i++)
                 _removedText[i] = null;
             _removedText.Clear();
-            _removedText = null;
+            _removedText = null;*/
+
+            _text.Clear();
+            _removedText.Clear();
+
 
             _font = null;
         }
@@ -209,9 +220,17 @@ namespace MonoGameEngine.StandardCore
             }             
                     
 
-            for (int i = 0; i < _text.Count; i++)
+            /*for (int i = 0; i < _text.Count; i++)
                 if (_text[i].IsInWorldSpace())
-                    _text[i].Draw(spriteBatch);
+                    _text[i].Draw(spriteBatch);*/
+
+            foreach(var item in _text)
+            {
+                if(item.Value.IsInWorldSpace())
+                {
+                    item.Value.Draw(spriteBatch);
+                }
+            }
 
 
             spriteBatch.End(); // End World Space Rendering
@@ -226,9 +245,13 @@ namespace MonoGameEngine.StandardCore
                 if (!_gameObjects[i].GetSprite().IsInWorldSpace())
                     _gameObjects[i].Render(spriteBatch);
 
-            for (int i = 0; i < _text.Count; i++)
+            /*for (int i = 0; i < _text.Count; i++)
                 if (!_text[i].IsInWorldSpace())
-                    _text[i].Draw(spriteBatch);
+                    _text[i].Draw(spriteBatch);*/
+
+            foreach(var item in _text)
+                if(!item.Value.IsInWorldSpace())
+                    item.Value.Draw(spriteBatch);
 
             spriteBatch.End(); // End Screen Space Rendering
         }
@@ -352,19 +375,24 @@ namespace MonoGameEngine.StandardCore
         {
             if (_removedObjects.Count > 0)
             {
-                for (int i = 0; i < _removedObjects.Count; i++)
+                /*for (int i = 0; i < _removedObjects.Count; i++)
                 {
                     _gameObjects.Remove(_removedObjects[i]);
-                }
+                }*/
                 _removedObjects.Clear();
             }
             
-            if(_removedText.Count > 0)
+            /*if(_removedText.Count > 0)
             {
                 for (int i = 0; i < _removedText.Count; i++)
                 {
                     _text.Remove(_removedText[i]);
                 }
+                _removedText.Clear();
+            }*/
+
+            if( _removedText.Count > 0)
+            {
                 _removedText.Clear();
             }
         }
@@ -442,7 +470,15 @@ namespace MonoGameEngine.StandardCore
         public void AddText(Text text, int x, int y)
         {
             text.SetPosition(new Vector2(x, y));
-            _text.Add(text);
+            //_text.Add(text);
+        }
+
+        public void AddText(string key, Text text, int x, int y)
+        {
+            text.SetPosition(new Vector2(x, y));
+            
+            if(!_text.ContainsKey(key))
+                _text.Add(key, text);
         }
 
         /// <summary>
@@ -451,7 +487,21 @@ namespace MonoGameEngine.StandardCore
         /// <param name="text">The Text object that should be removed from the Screen.</param>
         public void RemoveText(Text text)
         {
-            _removedText.Add(text);
+            //_removedText.Add(text);
+        }
+
+        public void RemoveText(string key, Text text)
+        {
+            _removedText.Add(key, text);
+        }
+
+        /// <summary>
+        /// Removes all text from the screen - blunt instrument version.
+        /// </summary>
+        /// <param name="text">Removes all text from the screen - used in the inventory example</param>
+        public void RemoveAllText()
+        {
+            _text.Clear();
         }
 
         /// <summary>
@@ -460,7 +510,7 @@ namespace MonoGameEngine.StandardCore
         /// <returns>A standard array of Text objects.</returns>
         protected Text[] GetText()
         {
-            return _text.ToArray();
+            return  _text.Values.ToArray();// return the text values as an array
         }
 
         /// <summary>

@@ -4,19 +4,23 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/images/col1.png</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/images/col2.png</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/images/col3.png</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/images/Pixel.png</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/images/SimpleBackground.png</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/misc/Arial.spritefont</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/misc/BackgroundShader.fx</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/misc/ComicSans.spritefont</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/misc/GrayscaleEffect.fx</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/misc/Pixel.png</File>
-    <File>C:/Users/lburn/OneDrive/Desktop/MonoGameEngineUpgrade/MonoGameEngine/StudentGame/Content/misc/SpriteFill.fx</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/col1.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/col2.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/col3.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/Pixel.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/player.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/potion.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/images/SimpleBackground.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/misc/Arial.spritefont</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/misc/BackgroundShader.fx</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/misc/ComicSans.spritefont</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/misc/GrayscaleEffect.fx</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/misc/Pixel.png</File>
+    <File>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Desktop/Template Project/Template Project/StudentGame/Content/misc/SpriteFill.fx</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

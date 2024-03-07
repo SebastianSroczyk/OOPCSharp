@@ -1939,6 +1939,7 @@
             <summary>
             Performs general cleanup for this class. Can be overriden to provide more bespoke cleanup functionality as needed.
             </summary>
+                  
         </member>
         <member name="M:MonoGameEngine.StandardCore.Screen.Update(System.Single)">
             <summary>
@@ -2045,6 +2046,12 @@
             Removes the given Text from the Screen at the end of the current frame of the game. 
             </summary>
             <param name="text">The Text object that should be removed from the Screen.</param>
+        </member>
+        <member name="M:MonoGameEngine.StandardCore.Screen.RemoveAllText">
+            <summary>
+            Removes all text from the screen - blunt instrument version.
+            </summary>
+            <param name="text">Removes all text from the screen - used in the inventory example</param>
         </member>
         <member name="M:MonoGameEngine.StandardCore.Screen.GetText">
             <summary>
