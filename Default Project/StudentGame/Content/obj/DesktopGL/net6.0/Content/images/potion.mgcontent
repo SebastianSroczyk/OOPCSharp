@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Development/REDEVELOPMENT/Games Development OOP 2024/Graphical Development/Default Project/StudentGame/Content/images/potion.png</SourceFile>
-  <SourceTime>2024-02-28T14:06:49.6977382+00:00</SourceTime>
-  <DestFile>C:/Users/j.oliver/OneDrive - Dundee and Angus College/Development/REDEVELOPMENT/Games Development OOP 2024/Graphical Development/Default Project/StudentGame/Content/bin/DesktopGL/Content/images/potion.xnb</DestFile>
-  <DestTime>2024-03-14T09:15:42.245738+00:00</DestTime>
+  <SourceFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Default Project/StudentGame/Content/images/potion.png</SourceFile>
+  <SourceTime>2024-03-14T09:33:47.3037745+00:00</SourceTime>
+  <DestFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Default Project/StudentGame/Content/bin/DesktopGL/Content/images/potion.xnb</DestFile>
+  <DestTime>2024-03-14T09:54:14.4929118+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

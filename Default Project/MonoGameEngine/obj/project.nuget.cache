@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7o/Oo1m9UJsteb30hQPRCaAmxTmt5LjBt6RhQKnwetRpYhir/tUlgYzXF4xDtT3tD+1AIElsGOOZo+EY3PYhSg==",
+  "dgSpecHash": "rlYYkVbW5tDd2adtmHXtLY1GZMCEVg2FJubM33WnVkzWvNinNb0Dgvc5UIxK4RxXxnv0JIvfrs/SLgAPmAQWhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\j.oliver\\OneDrive - Dundee and Angus College\\Desktop\\Template Project\\MonoGameEngine\\MonoGameEngine.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Default Project\\MonoGameEngine\\MonoGameEngine.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\j.oliver\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }

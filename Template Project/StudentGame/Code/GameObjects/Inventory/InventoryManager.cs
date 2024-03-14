@@ -11,7 +11,9 @@ namespace StudentGame.Code.GameObjects.Inventory
         //Size of inventory
         public int _inventorySize { get; set; }
         private int _inventoryUsed;
+        private int _firstItemIndex = 1;
         private int _currentItem;
+        
         public bool _displayInventory { get; set; }
 
         //Array of items
@@ -22,7 +24,7 @@ namespace StudentGame.Code.GameObjects.Inventory
         {
             _inventorySize = 10;
             _inventoryUsed = 0;
-            _currentItem = 0;
+            _currentItem = _firstItemIndex;
             
             _inventoryItems = new InventoryItem[_inventorySize];
             SetSprite("pixel"); // set a sprite for the inventory
@@ -42,20 +44,33 @@ namespace StudentGame.Code.GameObjects.Inventory
 
             _inventoryItems = new InventoryItem[_inventorySize];
         }
-
-
+        
+        /// <summary>
+        /// Searches the Array and adds an item into the empty slots
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns> The item the we are wanting to add</returns>
         public bool AddItem(InventoryItem item)
         {
             bool success = false;
+            int emptySlot = FindEmptyItemSlot();
 
-            if(_inventoryUsed < _inventorySize)
+            if (emptySlot > _inventorySize)
             {
-                _inventoryItems[_inventoryUsed] = item;
-                _inventoryUsed++;                
+                success = false;
+                
+            }
+            else if (emptySlot == 0)
+            {
+                success = false;
+            }
+            else
+            {
+                _inventoryItems[emptySlot] = item;
                 success = true;
             }
-
             return success;
+            
         }
         
         /**
@@ -63,11 +78,11 @@ namespace StudentGame.Code.GameObjects.Inventory
          * Only required if we use an array
          * A list or map would work without this mechanism
          */
-        public int FindEmptyItemSlot()
+        private int FindEmptyItemSlot()
         {
             int selectedElement = 0;
 
-            for(int i = 0; i < _inventorySize; i++)
+            for(int i = _firstItemIndex; i < _inventorySize; i++)
             {
                 if(_inventoryItems[i] == null)
                 {
@@ -83,10 +98,10 @@ namespace StudentGame.Code.GameObjects.Inventory
             _currentItem++;
 
             if(_currentItem == _inventorySize)
-                _currentItem = 0;
+                _currentItem = _firstItemIndex;
 
             if (_inventoryItems[_currentItem] == null)
-                _currentItem = 0;
+                _currentItem = _firstItemIndex;
 
             return _inventoryItems[_currentItem];
         }
@@ -102,8 +117,22 @@ namespace StudentGame.Code.GameObjects.Inventory
         }
         public bool RemoveItem(InventoryItem item) 
         {
+            _inventoryItems[_currentItem] = item;
+            
+            bool success = false;
 
-            return false;
+            if (_inventoryItems[_currentItem] == null)
+            {
+                success = false;
+            }
+            else
+            {
+                _inventoryItems[_currentItem] = null;
+                success = true;
+            }
+
+            return success;
+
         }
 
         /**
@@ -145,7 +174,7 @@ namespace StudentGame.Code.GameObjects.Inventory
             {
                 GetScreen().AddText("Title", new Text("Inventory"), 100, 100);
 
-                for (int i = 0; i < _inventoryItems.Length; i++)
+                for (int i = _firstItemIndex; i < _inventoryItems.Length; i++)
                 {
                     if (_inventoryItems[i] != null)
                     {
@@ -162,6 +191,8 @@ namespace StudentGame.Code.GameObjects.Inventory
                 GetScreen().RemoveAllText();
             }
         }
+
+        
 
         public override void Update(float deltaTime)
         {

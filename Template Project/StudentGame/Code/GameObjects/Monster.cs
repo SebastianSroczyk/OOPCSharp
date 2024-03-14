@@ -13,10 +13,10 @@ namespace StudentGame.Code.GameObjects
 
         public Monster() 
         {
-            SetSprite("Pixel");
+            SetSprite("Hero");
 
             //GetSprite().SetOrigin(0.5f, 0.5f);
-            //GetSprite().SetTint(Color.Pink);
+            GetSprite().SetTint(Color.Pink);
             //GetSprite().SetInWorldSpace(false);
             SetBounds(64, 64);
             

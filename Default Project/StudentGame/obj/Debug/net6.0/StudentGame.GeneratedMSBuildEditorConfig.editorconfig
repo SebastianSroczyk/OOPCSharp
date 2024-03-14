@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentGame
-build_property.ProjectDir = C:\Users\j.oliver\OneDrive - Dundee and Angus College\Development\REDEVELOPMENT\Games Development OOP 2024\Graphical Development\Default Project\StudentGame\
+build_property.ProjectDir = C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Default Project\StudentGame\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

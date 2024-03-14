@@ -13,6 +13,7 @@ namespace StudentGame.Code.GameObjects
 
         public int health { get; set; }
         public int damage { get; set; }
+        public Vector2 playerPosition{  get; private set; }  
 
         private bool _collect = false;
         private bool _attack = false;
@@ -49,6 +50,7 @@ namespace StudentGame.Code.GameObjects
 
         public override void Update(float deltaTime)
         {
+            playerPosition = new Vector2(GetX(), GetY());
             GetInput();
             Collisions();
  
@@ -56,7 +58,8 @@ namespace StudentGame.Code.GameObjects
 
         private void GetInput()
         {
-            if(GameInput.IsKeyPressed("a"))
+            
+            if(GameInput.IsKeyHeld("a"))
             {
                 Vector2 pos = new Vector2();
                 pos.X = GetX() - 4;
@@ -65,7 +68,7 @@ namespace StudentGame.Code.GameObjects
                 SetPosition(pos);
             }
 
-            if(GameInput.IsKeyPressed("d"))
+            if(GameInput.IsKeyHeld("d"))
             {
                 Vector2 pos = new Vector2();
                 pos.X = GetX() +4;
@@ -74,7 +77,7 @@ namespace StudentGame.Code.GameObjects
                 SetPosition(pos);
             }
 
-            if(GameInput.IsKeyPressed("w"))
+            if(GameInput.IsKeyHeld("w"))
             {
                 Vector2 pos = new Vector2();
                 pos.X = GetX();
@@ -83,7 +86,7 @@ namespace StudentGame.Code.GameObjects
                 SetPosition(pos);
             }
 
-            if(GameInput.IsKeyPressed("s"))
+            if(GameInput.IsKeyHeld("s"))
             {
                 Vector2 pos = new Vector2();
                 pos.X = GetX();
@@ -94,7 +97,7 @@ namespace StudentGame.Code.GameObjects
 
             //Check to see if the user has indicated collect 
             // Set a boolean to hold the choice.
-            if(GameInput.IsKeyPressed("e"))
+            if(GameInput.IsKeyHeld("e"))
             {
                 _collect = true;
             }
@@ -102,6 +105,7 @@ namespace StudentGame.Code.GameObjects
             // When the e key is released - turn of the collect flag
             if(GameInput.IsKeyReleased("e"))
             {
+                
                 _collect = false;
             }
 
@@ -129,8 +133,11 @@ namespace StudentGame.Code.GameObjects
             // C to drop an Item
             if(GameInput.IsKeyPressed("c"))
             {
-                _inventoryManager.RemoveItem(0);
-                _currentItem = null;
+                
+                // gets refence for item selected
+                _inventoryManager.RemoveItem(_currentItem);
+                DropItem(_currentItem, playerPosition);
+                
             }
 
             if(GameInput.IsKeyPressed("space"))
@@ -148,7 +155,7 @@ namespace StudentGame.Code.GameObjects
             if(_collect == true && go is InventoryItem) // Check if collision is true and...
             {
                 InventoryItem ii = (InventoryItem)go;
-               PickUpItem(ii);
+                PickUpItem(ii);
             }
 
             if(_attack == true && go is Monster)
@@ -174,7 +181,7 @@ namespace StudentGame.Code.GameObjects
          */
         public void PickUpItem(InventoryItem item)
         {
-            if(_inventoryManager.AddItem(item))
+            if (_inventoryManager.AddItem(item))
             {
                 item.SetVisible(false); // hide the item because it's now in the inventory
                 item.SetPosition(new Vector2(0, 0)); // Update the position - if we drop it we'll need to change
@@ -183,9 +190,17 @@ namespace StudentGame.Code.GameObjects
             }
         }
 
-        public void DropItem()
+        public void DropItem(InventoryItem item, Vector2 playerPos)
         {
-
+            
+            if (item != null)
+            {
+                item.SetVisible(true); // hide the item because it's now in the inventory
+                item.SetPosition(playerPos); // Update the position - if we drop it we'll need to change
+                _currentItem = null;
+                _collect = false;
+                
+            }
         }
     }
 }

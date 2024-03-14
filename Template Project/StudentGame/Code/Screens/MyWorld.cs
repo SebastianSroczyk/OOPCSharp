@@ -45,18 +45,24 @@ namespace StudentGame.Code.Screens
 
             Random r = new Random();
             int chance = r.Next(100);
-
+            int x = r.Next(300);
+            int y = r.Next(400);
             //Check to see if we add a monster while the game is running
             //
-            if(chance < 1)
+            if (chance < 10)
             {
-                int x = r.Next(300);
-                int y = r.Next(400);
-                AddObject(new Potion(), x, y);
+                
+                AddObject(new Potion(1, "Potion", "This is a potion", 10), x, y);
                 //Console.WriteLine("Spawning a Monster");
-                //Monster m = _monsterGen.generateMonster();
-                //AddObject(m, (int)m.GetX(), (int)m.GetY());
-            }     
+                
+            }
+            /*
+            else if (chance < 1)
+            {
+                Monster m = _monsterGen.generateMonster();
+                AddObject(m, x, y);
+            }
+            */
         }
 
         public override void Render(SpriteBatch spriteBatch)
