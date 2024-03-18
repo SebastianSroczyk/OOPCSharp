@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using MonoGame.Extended;
 using MonoGameEngine.StandardCore;
 using StudentGame.Code.GameObjects.Inventory;
 using System;
@@ -8,11 +9,14 @@ namespace StudentGame.Code.GameObjects
     internal class Player : GameObject
     {
         //Backpack
-        InventoryManager _inventoryManager { get; set; }
-        InventoryItem _currentItem { get;set; }
+        private InventoryManager _inventoryManager { get; set; }
+        private InventoryItem _currentItem { get;set; }
+        private Potion _potion { get; set; }
+        private Weapon _weapon { get; set; }
 
         public int health { get; set; }
         public int damage { get; set; }
+        public int Speed {  get; set; }
         public Vector2 playerPosition{  get; private set; }  
 
         private bool _collect = false;
@@ -32,8 +36,10 @@ namespace StudentGame.Code.GameObjects
             _inventoryManager = inventory ;
             _currentItem = null;
 
+
             health = 100; // initial health value
             damage = 5;
+            Speed = 5;
         }
 
         public override void Render(SpriteBatch spriteBatch)
@@ -62,7 +68,7 @@ namespace StudentGame.Code.GameObjects
             if(GameInput.IsKeyHeld("a"))
             {
                 Vector2 pos = new Vector2();
-                pos.X = GetX() - 4;
+                pos.X = GetX() - Speed;
                 pos.Y = GetY();
 
                 SetPosition(pos);
@@ -71,7 +77,7 @@ namespace StudentGame.Code.GameObjects
             if(GameInput.IsKeyHeld("d"))
             {
                 Vector2 pos = new Vector2();
-                pos.X = GetX() +4;
+                pos.X = GetX() + Speed;
                 pos.Y = GetY();
 
                 SetPosition(pos);
@@ -81,7 +87,7 @@ namespace StudentGame.Code.GameObjects
             {
                 Vector2 pos = new Vector2();
                 pos.X = GetX();
-                pos.Y = GetY() - 4;
+                pos.Y = GetY() - Speed;
 
                 SetPosition(pos);
             }
@@ -90,7 +96,7 @@ namespace StudentGame.Code.GameObjects
             {
                 Vector2 pos = new Vector2();
                 pos.X = GetX();
-                pos.Y = GetY() + 4;
+                pos.Y = GetY() + Speed;
 
                 SetPosition(pos);
             }
@@ -134,10 +140,12 @@ namespace StudentGame.Code.GameObjects
             if(GameInput.IsKeyPressed("c"))
             {
                 
-                // gets refence for item selected
-                _inventoryManager.RemoveItem(_currentItem);
-                DropItem(_currentItem, playerPosition);
-                
+                if (!_inventoryManager.CheckIfEmpty())
+                {
+                    // gets refence for item selected
+                    _inventoryManager.RemoveItem(_currentItem);
+                    DropItem(_currentItem, playerPosition);
+                } 
             }
 
             if(GameInput.IsKeyPressed("space"))
@@ -162,6 +170,7 @@ namespace StudentGame.Code.GameObjects
             {
                 Monster m = (Monster) go;
                 Attack(m);
+                _attack = false;
             }
         }
 
@@ -173,7 +182,12 @@ namespace StudentGame.Code.GameObjects
 
         public void Attack(Monster m)
         {
-            
+            if(!_inventoryManager.CheckIfEmpty() && _currentItem is Weapon)
+            {
+                Weapon weapon = (Weapon) _currentItem;
+                m.PHealth -= weapon.HitPoints;
+                Console.WriteLine("Attacking Enemy");
+            }
         }
 
         /**

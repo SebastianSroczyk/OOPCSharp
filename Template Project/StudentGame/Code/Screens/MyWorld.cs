@@ -14,7 +14,9 @@ namespace StudentGame.Code.Screens
         // Hold the Text instance for displaying a message on screen
         private Text _titleText;
 
-        private MonsterGen _monsterGen = new MonsterGen();
+        private MonsterGen _monsterGen;
+        private InventoryManager _inventoryMan = new InventoryManager();
+        private ItemGenerator _itemGen;
 
         //Set up level with gameobjects and engine options
         public override void Start(Core core)
@@ -22,9 +24,15 @@ namespace StudentGame.Code.Screens
             base.Start(core);
             // TODO: Add your screen initialisation code between here...
             _tileMap = new TileMap();
-            InventoryManager im = new InventoryManager();
-            AddObject(im, 0, 0);
-            AddObject(new Player(im), 100, 50);
+
+            ItemGenerator itemGen = new ItemGenerator();
+            MonsterGen monsterGen = new MonsterGen();
+            _monsterGen = monsterGen;
+            _itemGen = itemGen;
+
+            AddObject(_inventoryMan, 0, 0);
+            
+            AddObject(new Player(_inventoryMan), 100, 50);
             
             //AddObject(new Monster(), 20, 20);
 
@@ -32,6 +40,8 @@ namespace StudentGame.Code.Screens
             _titleText = new Text("", inScreenSpace: true);
             _titleText.SetScale(2.0f);
             AddText(_titleText, 800, 20);
+            
+
 
             Transition.Instance.EndTransition(TransitionType.Fade, 0.75f);
         }
@@ -42,28 +52,40 @@ namespace StudentGame.Code.Screens
         public override void Update(float deltaTime)
         {
             base.Update(deltaTime);
+            GenerateObjects();
 
+        }
+
+        private void GenerateObjects()
+        {
             Random r = new Random();
+
             int chance = r.Next(100);
-            int x = r.Next(300);
-            int y = r.Next(400);
+
             //Check to see if we add a monster while the game is running
             //
-            if (chance < 10)
+            if (chance < 1)
             {
-                
-                AddObject(new Potion(1, "Potion", "This is a potion", 10), x, y);
-                //Console.WriteLine("Spawning a Monster");
-                
+                AddObject(_itemGen.GeneratePotion(), _itemGen.objectXPos, _itemGen.objectYPos);
+
             }
-            /*
-            else if (chance < 1)
+            else if (chance == 10)
             {
-                Monster m = _monsterGen.generateMonster();
-                AddObject(m, x, y);
+
+                AddObject(_monsterGen.GenerateMonster(), _monsterGen.xPos, _monsterGen.yPos);
+
+
+
+
             }
-            */
+            else if (chance > 98)
+            {
+
+                AddObject(_itemGen.GenerateWeapon(), _itemGen.objectXPos, _itemGen.objectYPos);
+            
+            }
         }
+
 
         public override void Render(SpriteBatch spriteBatch)
         {

@@ -13,6 +13,8 @@ namespace StudentGame.Code.GameObjects.Inventory
         public string Name { get; set; }
         public string Description { get; set; }
 
+        
+
         public InventoryItem() 
         {
             Size = 0;
@@ -20,7 +22,7 @@ namespace StudentGame.Code.GameObjects.Inventory
             Description = "Default Description";
         }
 
-        public InventoryItem(int size, string name, string description)
+        public InventoryItem(int size, string name, string description )
         {
             this.Size = size;
             this.Name = name;
@@ -29,7 +31,7 @@ namespace StudentGame.Code.GameObjects.Inventory
 
         public virtual void Use(Player p)
         {
-           
+            
         }
 
         public override void Update(float deltaTime)

@@ -10,7 +10,6 @@ namespace StudentGame.Code.GameObjects.Inventory
     {
         //Size of inventory
         public int _inventorySize { get; set; }
-        private int _inventoryUsed;
         private int _firstItemIndex = 1;
         private int _currentItem;
         
@@ -23,7 +22,6 @@ namespace StudentGame.Code.GameObjects.Inventory
         public InventoryManager() 
         {
             _inventorySize = 10;
-            _inventoryUsed = 0;
             _currentItem = _firstItemIndex;
             
             _inventoryItems = new InventoryItem[_inventorySize];
@@ -39,9 +37,7 @@ namespace StudentGame.Code.GameObjects.Inventory
          */
         public InventoryManager(int size)
         {
-            _inventorySize = size;
-            _inventoryUsed = 0;
-
+            _inventorySize = size + 1;
             _inventoryItems = new InventoryItem[_inventorySize];
         }
         
@@ -78,7 +74,7 @@ namespace StudentGame.Code.GameObjects.Inventory
          * Only required if we use an array
          * A list or map would work without this mechanism
          */
-        private int FindEmptyItemSlot()
+        public int FindEmptyItemSlot()
         {
             int selectedElement = 0;
 
@@ -91,6 +87,26 @@ namespace StudentGame.Code.GameObjects.Inventory
                 }
             }
             return selectedElement;
+        }
+        public bool CheckIfEmpty()
+        {
+            int numEmptySlot = 0;
+            
+            for (int i = 1; i < _inventorySize; i++)
+            {
+                if (_inventoryItems[i] == null)
+                {
+                    numEmptySlot++;
+                    
+                }
+                if (_inventorySize - 1 == numEmptySlot)
+                {
+                    Console.WriteLine("Array is Empty");
+                    return true;
+                }
+            }
+            
+            return false;
         }
 
         public InventoryItem GetNextItem()
@@ -194,9 +210,13 @@ namespace StudentGame.Code.GameObjects.Inventory
 
         
 
+        
+
         public override void Update(float deltaTime)
         {
             
         }
+
+        
     }
 }

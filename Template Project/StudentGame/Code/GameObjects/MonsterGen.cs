@@ -9,29 +9,43 @@ namespace StudentGame.Code.GameObjects
     internal class MonsterGen
     {
         private string[] names = { "Goblin", "Ork", "Witch" };  // Random name options
-        private Vector2 spawnLocation; // The location the monsters will spawn from
+        public int xPos { get; private set; } // The location the monsters will spawn from
+        public int yPos { get; private set; }
 
-        public MonsterGen() 
+        private int numOfNamesArray;
+
+        public int MaxDamage = 100;
+        private int MaxHealth = 500;
+        public MonsterGen()
         {
-            spawnLocation = new Vector2(100, 100);
-        }
 
-        public MonsterGen(Vector2 spawnLocation)
-        {
-            this.spawnLocation = spawnLocation;
+            xPos = 100;
+            yPos = 100;
+            numOfNamesArray = names.Length;
+            
+            
         }
-
-        public Monster generateMonster()
+        public Monster GenerateMonster()
         {
             Random r = new Random();
 
             Console.WriteLine("Creating Monster");
-            Monster m = new Monster();
+            Monster m = new Monster(names[r.Next(numOfNamesArray)], r.Next(MaxHealth), r.Next(MaxDamage));
+            xPos = r.Next(20, 1600);
+            yPos = r.Next(20, 800);
+            m.SetPosition(xPos,yPos);
+
+            return m;
+        }
+        public Monster GenerateMonster(Vector2 spawnLocation)
+        {
+            Random r = new Random();
+
+            Console.WriteLine("Creating Monster");
+            Monster m = new Monster(names[r.Next(numOfNamesArray)], r.Next(MaxHealth), r.Next(MaxDamage));
+
 
             // Create a monster
-            m._damage = r.Next(50) + 75;
-            m._monsterName = names[r.Next(3)];
-            m._health = r.Next(50 + 25);
             m.SetPosition(spawnLocation);
 
             return m;
