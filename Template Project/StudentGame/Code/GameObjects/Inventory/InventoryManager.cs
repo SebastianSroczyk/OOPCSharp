@@ -207,11 +207,6 @@ namespace StudentGame.Code.GameObjects.Inventory
                 GetScreen().RemoveAllText();
             }
         }
-
-        
-
-        
-
         public override void Update(float deltaTime)
         {
             

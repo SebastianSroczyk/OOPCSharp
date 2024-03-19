@@ -27,7 +27,7 @@ namespace StudentGame.Code.GameObjects.Inventory
 
             if (potionNames.Length != potionDescriptions.Length || weaponNames.Length != weaponDescriptions.Length)
             {
-                throw new ArgumentOutOfRangeException("Either the length of the potions arrays or weapons arrays don't match.");
+                throw new ArgumentOutOfRangeException("Either the length of the potion arrays or weapon arrays don't match.");
             }
         }
 
