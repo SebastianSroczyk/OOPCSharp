@@ -245,10 +245,10 @@ C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\S
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.AssemblyInfo.cs
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.csproj.CoreCompileInputs.cache
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.sourcelink.json
-C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.csproj.CopyComplete
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.dll
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\refint\StudentGame.dll
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.pdb
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentGame.genruntimeconfig.cache
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\ref\StudentGame.dll
 C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\bin\Debug\net6.0\Content\images\Hero.xnb
+C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Template Project\StudentGame\obj\Debug\net6.0\StudentG.40A1C7B3.Up2Date
