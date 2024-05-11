@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\screens\\myworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InventoryItem.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
@@ -71,8 +71,7 @@
               "RelativeToolTip": "StudentGame\\Code\\Screens\\MyWorld.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAYwEkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T09:59:40.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-14T09:59:40.768Z"
             },
             {
               "$type": "Document",
@@ -130,7 +129,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
