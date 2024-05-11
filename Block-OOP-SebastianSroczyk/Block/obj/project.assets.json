@@ -102,23 +102,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\": {},
+    "C:\\Users\\Kaktu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Block.csproj",
+      "projectUniqueName": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Block.csproj",
       "projectName": "Block",
-      "projectPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Block.csproj",
-      "packagesPath": "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\obj\\",
+      "projectPath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Block.csproj",
+      "packagesPath": "C:\\Users\\Kaktu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sebastian Sroczyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kaktu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -127,7 +127,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -140,11 +139,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -176,7 +170,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

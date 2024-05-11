@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaktu\\Desktop\\HNDGames\\OOP\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj": {}
+    "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaktu\\Desktop\\HNDGames\\OOP\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj": {
+    "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaktu\\Desktop\\HNDGames\\OOP\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj",
+        "projectUniqueName": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj",
         "projectName": "OOP Task 10 - Text-Based Adventure",
-        "projectPath": "C:\\Users\\Kaktu\\Desktop\\HNDGames\\OOP\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj",
+        "projectPath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP Task 10 - Text-Based Adventure\\OOP Task 10 - Text-Based Adventure.csproj",
         "packagesPath": "C:\\Users\\Kaktu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaktu\\Desktop\\HNDGames\\OOP\\OOP Task 10 - Text-Based Adventure\\obj\\",
+        "outputPath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP Task 10 - Text-Based Adventure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

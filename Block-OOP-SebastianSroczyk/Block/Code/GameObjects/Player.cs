@@ -4,6 +4,8 @@ using MonoGameEngine.StandardCore;
 using Block.Code.GameObjects.Inventory;
 using System;
 using System.Collections;
+using Block.Code.GameObjects.Managers;
+using Block.Code.GameObjects.Enemy;
 
 namespace Block.Code.GameObjects
 {

@@ -9,7 +9,7 @@ namespace Block
             Window.Title = "MyGame";
             // TODO: Add your initialization logic between here...
             Camera.Instance.ClampWithinWorld = true;
-            Settings.ScreenDimensions = new Vector2(1920, 1080);
+            Settings.ScreenDimensions = new Vector2(1920f, 1080f);
 
             Settings.LetterboxFill = Color.Black;
             Settings.IsMouseVisible = false;

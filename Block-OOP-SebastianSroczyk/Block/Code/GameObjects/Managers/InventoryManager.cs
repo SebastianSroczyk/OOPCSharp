@@ -3,27 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Block.Code.GameObjects.Inventory;
 
-namespace Block.Code.GameObjects.Inventory
-{   
+namespace Block.Code.GameObjects.Managers
+{
     internal class InventoryManager : GameObject
     {
         //Size of inventory
         public int _inventorySize { get; set; }
         private int _firstItemIndex = 1;
         private int _currentItem;
-        
+
         public bool _displayInventory { get; set; }
 
         //Array of items
         public InventoryItem[] _inventoryItems { get; }
 
         // Default inventory manager constructor
-        public InventoryManager() 
+        public InventoryManager()
         {
             _inventorySize = 10;
             _currentItem = _firstItemIndex;
-            
+
             _inventoryItems = new InventoryItem[_inventorySize];
             SetSprite("pixel"); // set a sprite for the inventory
             SetVisible(true);
@@ -40,7 +41,7 @@ namespace Block.Code.GameObjects.Inventory
             _inventorySize = size + 1;
             _inventoryItems = new InventoryItem[_inventorySize];
         }
-        
+
         /// <summary>
         /// Searches the Array and adds an item into the empty slots
         /// </summary>
@@ -54,7 +55,7 @@ namespace Block.Code.GameObjects.Inventory
             if (emptySlot > _inventorySize)
             {
                 success = false;
-                
+
             }
             else if (emptySlot == 0)
             {
@@ -66,9 +67,9 @@ namespace Block.Code.GameObjects.Inventory
                 success = true;
             }
             return success;
-            
+
         }
-        
+
         /**
          * Find an empty item slot
          * Only required if we use an array
@@ -78,11 +79,11 @@ namespace Block.Code.GameObjects.Inventory
         {
             int selectedElement = 0;
 
-            for(int i = _firstItemIndex; i < _inventorySize; i++)
+            for (int i = _firstItemIndex; i < _inventorySize; i++)
             {
-                if(_inventoryItems[i] == null)
+                if (_inventoryItems[i] == null)
                 {
-                    selectedElement = i; 
+                    selectedElement = i;
                     break;
                 }
             }
@@ -91,21 +92,21 @@ namespace Block.Code.GameObjects.Inventory
         public bool CheckIfEmpty()
         {
             int numEmptySlot = 0;
-            
+
             for (int i = 1; i < _inventorySize; i++)
             {
                 if (_inventoryItems[i] == null)
                 {
                     numEmptySlot++;
-                    
+
                 }
                 if (_inventorySize - 1 == numEmptySlot)
                 {
-                    Console.WriteLine("Array is Empty");
+                    //Console.WriteLine("Array is Empty");
                     return true;
                 }
             }
-            
+
             return false;
         }
 
@@ -113,7 +114,7 @@ namespace Block.Code.GameObjects.Inventory
         {
             _currentItem++;
 
-            if(_currentItem == _inventorySize)
+            if (_currentItem == _inventorySize)
                 _currentItem = _firstItemIndex;
 
             if (_inventoryItems[_currentItem] == null)
@@ -131,10 +132,10 @@ namespace Block.Code.GameObjects.Inventory
 
             return _inventoryItems[_currentItem];
         }
-        public bool RemoveItem(InventoryItem item) 
+        public bool RemoveItem(InventoryItem item)
         {
             _inventoryItems[_currentItem] = item;
-            
+
             bool success = false;
 
             if (_inventoryItems[_currentItem] == null)
@@ -156,7 +157,7 @@ namespace Block.Code.GameObjects.Inventory
          * the index will indicate which item needs to be removed.
          * 
          */
-        public bool RemoveItem(int itemIndex) 
+        public bool RemoveItem(int itemIndex)
         {
             bool success = false;
 
@@ -174,7 +175,7 @@ namespace Block.Code.GameObjects.Inventory
         }
 
         public InventoryItem TakeItem(int itemIndex)
-        { 
+        {
             return _inventoryItems[itemIndex];
         }
 
@@ -196,22 +197,22 @@ namespace Block.Code.GameObjects.Inventory
                     {
                         string id = _inventoryItems[i].GetHashCode().ToString(); // Get a unique reference for the item
                         if (i == _currentItem)
-                            GetScreen().AddText(id, new Text(_inventoryItems[i].Name, new Color(255, 0, 0)), 100, 200 + (i* 20));
+                            GetScreen().AddText(id, new Text(_inventoryItems[i].Name, new Color(255, 0, 0)), 100, 200 + i * 20);
                         else
-                            GetScreen().AddText(id, new Text(_inventoryItems[i].Name), 100, 200 + (i * 20));
+                            GetScreen().AddText(id, new Text(_inventoryItems[i].Name), 100, 200 + i * 20);
                     }
                 }
             }
-            else 
+            else
             {
                 GetScreen().RemoveAllText();
             }
         }
         public override void Update(float deltaTime)
         {
-            
+
         }
 
-        
+
     }
 }

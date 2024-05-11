@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace   Block.Code.GameObjects
+namespace Block.Code.GameObjects.Enemy
 {
     internal class MonsterGen
     {
@@ -22,18 +22,14 @@ namespace   Block.Code.GameObjects
             xPos = 100;
             yPos = 100;
             numOfNamesArray = names.Length;
-            
-            
+
+
         }
         public Monster GenerateMonster()
         {
             Random r = new Random();
-
-            Console.WriteLine("Creating Monster");
+            //Console.WriteLine("Creating Monster");
             Monster m = new Monster(names[r.Next(numOfNamesArray)], r.Next(MaxHealth), r.Next(MaxDamage));
-            xPos = r.Next(20, 1600);
-            yPos = r.Next(20, 800);
-            m.SetPosition(xPos,yPos);
 
             return m;
         }
@@ -41,7 +37,7 @@ namespace   Block.Code.GameObjects
         {
             Random r = new Random();
 
-            Console.WriteLine("Creating Monster");
+            //Console.WriteLine("Creating Monster");
             Monster m = new Monster(names[r.Next(numOfNamesArray)], r.Next(MaxHealth), r.Next(MaxDamage));
 
 

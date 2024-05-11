@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOP Task 10 - Text-Based Adventure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3739e9109b808e6ce1dc599d3fb5e148e6d1681")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12859ce1f1b4f5186bf86b97c069412343df8efe")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOP Task 10 - Text-Based Adventure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOP Task 10 - Text-Based Adventure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

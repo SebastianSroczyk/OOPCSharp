@@ -1,7 +1,7 @@
 ﻿using Block.Code.Screens;
 using System;
 
-namespace Block.Code.GameObjects
+namespace Block.Code.GameObjects.Enemy
 {
     internal class Monster : GameObject
     {
@@ -33,27 +33,27 @@ namespace Block.Code.GameObjects
 
         public Monster(string name, int health, int damage)
         {
-            this._monsterName = name;
-            this.PHealth = health;
-            this._damage = damage;
+            _monsterName = name;
+            PHealth = health;
+            _damage = damage;
             SetSprite("Hero");
             SetBounds(64, 64);
-            
+
         }
 
 
         public override void Update(float deltaTime)
         {
-            Console.WriteLine(PHealth);
+            //Console.WriteLine(PHealth);
             CheckHealth();
         }
 
         private void CheckHealth()
         {
-           if (PHealth < 0)
+            if (PHealth < 0)
             {
-                Console.WriteLine(PHealth);
-            } 
+                //Console.WriteLine(PHealth);
+            }
         }
 
         public override void Render(SpriteBatch spriteBatch)

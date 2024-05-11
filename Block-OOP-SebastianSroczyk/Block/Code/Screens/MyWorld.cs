@@ -1,8 +1,13 @@
 ﻿using Block.Code.GameObjects;
+using Block.Code.GameObjects.Enemy;
 using Block.Code.GameObjects.Inventory;
+using Block.Code.GameObjects.Managers;
 using Block.Code.GameObjects.Tiles;
 using System;
+using System.Collections.Generic;
 using System.Runtime.ExceptionServices;
+using System.Runtime.Serialization;
+using ObjectManager = Block.Code.GameObjects.Managers.ObjectManager;
 
 namespace Block.Code.Screens
 {
@@ -14,11 +19,16 @@ namespace Block.Code.Screens
         // Hold the Text instance for displaying a message on screen
         private Text _titleText;
 
+        private GameStateManager _gameStateManager;
         private ItemGenerator _itemGen;
         private MonsterGen _monsterGen;
         private InventoryManager _inventoryMan;
         private Player _player;
+        private ObjectManager _objectManager;
 
+
+        private int numberOfMonsters = 0;
+        private int currentRound = 500;
 
         //Set up level with gameobjects and engine options
         public override void Start(Core core)
@@ -26,7 +36,11 @@ namespace Block.Code.Screens
             base.Start(core);
             // TODO: Add your screen initialisation code between here...
             _tileMap = new TileMap();
-            
+
+            _gameStateManager = new GameStateManager();
+
+            ObjectManager objectManager = new ObjectManager();
+            _objectManager = objectManager;
 
             ItemGenerator itemGen = new ItemGenerator();
             _itemGen = itemGen;
@@ -40,43 +54,59 @@ namespace Block.Code.Screens
             Player player = new Player(_inventoryMan);
             _player = player;
 
-            AddObject(_inventoryMan, 0, 0);
+              
 
+
+            AddObject(_inventoryMan, 0, 0);
             AddObject(_player, 100, 50);
 
             // Add a text object for displaying the camera center position
-            _titleText = new Text("", inScreenSpace: true);
+            _titleText = new Text("Block", inScreenSpace: true);
             _titleText.SetScale(2.0f);
             AddText(_titleText, 800, 20);
-            
+
+
+            AddObject(GenerateObjects(),(int), (int)_objectManager.ObjectPosition.Y);
             Transition.Instance.EndTransition(TransitionType.Fade, 0.75f);
         }
-        public void GenerateObjects()
+        public GameObject GenerateObjects()
+        {
+            Vector2 BoxTopLeft = new Vector2(300, 300);
+            Vector2 BoxBottomRight = new Vector2(900, 900);
+
+            while (_gameStateManager.CurrentNumberOfMonsters != _gameStateManager.CurrentRound)
+            {
+                Vector2 pos = PlaceObjects(BoxTopLeft, BoxBottomRight);
+                MonsterObjectPool.Add(_monsterGen.GenerateMonster());
+                MonsterPoolPos.Add(ObjectPosition);
+                stateManager.CurrentNumberOfMonsters++;
+            }
+
+            // Disables all objects in Object Pool
+            foreach (GameObject obj in MonsterObjectPool)
+            {
+                obj.SetActive(false);
+                obj.SetVisible(false);
+            }
+
+            return MonsterObjectPool[stateManager.CurrentNumberOfMonsters];
+        }
+        private Vector2 PlaceObjects(Vector2 p1, Vector2 p2)
         {
             Random r = new Random();
 
-            int chance = r.Next(100);
+            Vector2 tempPos = new Vector2(r.Next((int)Settings.GameResolution.X - 30), r.Next((int)Settings.GameResolution.Y - 30));
 
-            //Check to see if we add a monster while the game is running
-            //
-            if (chance < 1)
+            while ((tempPos.X > p1.X && tempPos.X < p2.X) && (tempPos.Y > p1.Y && tempPos.Y < p2.Y))
             {
-                AddObject(_itemGen.GeneratePotion(), _itemGen.objectXPos, _itemGen.objectYPos);
-
+                tempPos = new Vector2(r.Next((int)Settings.GameResolution.X - 30), r.Next((int)Settings.GameResolution.Y - 30));
             }
-            else if (chance == 10)
-            {
 
-                AddObject(_monsterGen.GenerateMonster(), _monsterGen.xPos, _monsterGen.yPos);
-
-            }
-            else if (chance > 98)
-            {
-
-                AddObject(_itemGen.GenerateWeapon(), _itemGen.objectXPos, _itemGen.objectYPos);
-
-            }
+            return tempPos;
         }
+
+
+
 
         /**
          * Update the level including any random elements.
@@ -84,7 +114,7 @@ namespace Block.Code.Screens
         public override void Update(float deltaTime)
         {
             base.Update(deltaTime);
-            //GenerateObjects();
+            
 
         }
 
