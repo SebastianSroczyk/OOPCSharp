@@ -7,7 +7,6 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.ExceptionServices;
 using System.Runtime.Serialization;
-using ObjectManager = Block.Code.GameObjects.Managers.ObjectManager;
 
 namespace Block.Code.Screens
 {
@@ -24,7 +23,6 @@ namespace Block.Code.Screens
         private MonsterGen _monsterGen;
         private InventoryManager _inventoryMan;
         private Player _player;
-        private ObjectManager _objectManager;
 
 
         private int numberOfMonsters = 0;
@@ -39,8 +37,6 @@ namespace Block.Code.Screens
 
             _gameStateManager = new GameStateManager();
 
-            ObjectManager objectManager = new ObjectManager();
-            _objectManager = objectManager;
 
             ItemGenerator itemGen = new ItemGenerator();
             _itemGen = itemGen;
@@ -65,45 +61,13 @@ namespace Block.Code.Screens
             _titleText.SetScale(2.0f);
             AddText(_titleText, 800, 20);
 
+            
 
-            AddObject(GenerateObjects(),(int), (int)_objectManager.ObjectPosition.Y);
+            AddObject(_gameStateManager.GenerateObjects().Item1, (int)_gameStateManager.GenerateObjects().Item2.X, (int)_gameStateManager.GenerateObjects().Item2.Y);
             Transition.Instance.EndTransition(TransitionType.Fade, 0.75f);
         }
-        public GameObject GenerateObjects()
-        {
-            Vector2 BoxTopLeft = new Vector2(300, 300);
-            Vector2 BoxBottomRight = new Vector2(900, 900);
-
-            while (_gameStateManager.CurrentNumberOfMonsters != _gameStateManager.CurrentRound)
-            {
-                Vector2 pos = PlaceObjects(BoxTopLeft, BoxBottomRight);
-                MonsterObjectPool.Add(_monsterGen.GenerateMonster());
-                MonsterPoolPos.Add(ObjectPosition);
-                stateManager.CurrentNumberOfMonsters++;
-            }
-
-            // Disables all objects in Object Pool
-            foreach (GameObject obj in MonsterObjectPool)
-            {
-                obj.SetActive(false);
-                obj.SetVisible(false);
-            }
-
-            return MonsterObjectPool[stateManager.CurrentNumberOfMonsters];
-        }
-        private Vector2 PlaceObjects(Vector2 p1, Vector2 p2)
-        {
-            Random r = new Random();
-
-            Vector2 tempPos = new Vector2(r.Next((int)Settings.GameResolution.X - 30), r.Next((int)Settings.GameResolution.Y - 30));
-
-            while ((tempPos.X > p1.X && tempPos.X < p2.X) && (tempPos.Y > p1.Y && tempPos.Y < p2.Y))
-            {
-                tempPos = new Vector2(r.Next((int)Settings.GameResolution.X - 30), r.Next((int)Settings.GameResolution.Y - 30));
-            }
-
-            return tempPos;
-        }
+        
+        
 
 
 
