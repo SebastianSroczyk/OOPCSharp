@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\code\\screens\\myworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\code\\screens\\myworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\code\\gameobjects\\managers\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\code\\gameobjects\\managers\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\code\\screens\\otherworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\code\\screens\\otherworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\mygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\mygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\code\\gameobjects\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\code\\gameobjects\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\block-oop-sebastiansroczyk\\block\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA92FBE8-B23F-4457-A1D9-A6F7B1543AC3}|Block\\Block.csproj|solutionrelative:block\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,20 +37,46 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 390,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Player.cs",
-              "RelativeDocumentMoniker": "Block\\Code\\GameObjects\\Player.cs",
-              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Player.cs",
-              "RelativeToolTip": "Block\\Code\\GameObjects\\Player.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAIwEEAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Managers\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Block\\Code\\GameObjects\\Managers\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Managers\\InventoryManager.cs",
+              "RelativeToolTip": "Block\\Code\\GameObjects\\Managers\\InventoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T09:53:24.979Z",
+              "WhenOpened": "2024-05-14T08:38:16.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyGame.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\MyGame.cs",
+              "RelativeDocumentMoniker": "Block\\MyGame.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\MyGame.cs",
+              "RelativeToolTip": "Block\\MyGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:21:28.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameStateManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Managers\\GameStateManager.cs",
+              "RelativeDocumentMoniker": "Block\\Code\\GameObjects\\Managers\\GameStateManager.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Managers\\GameStateManager.cs",
+              "RelativeToolTip": "Block\\Code\\GameObjects\\Managers\\GameStateManager.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAADQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T08:15:33.078Z",
               "EditorCaption": ""
             },
             {
@@ -56,26 +94,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MyWorld.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\Screens\\MyWorld.cs",
               "RelativeDocumentMoniker": "Block\\Code\\Screens\\MyWorld.cs",
               "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\Screens\\MyWorld.cs",
               "RelativeToolTip": "Block\\Code\\Screens\\MyWorld.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T09:53:04.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Player.cs",
+              "RelativeDocumentMoniker": "Block\\Code\\GameObjects\\Player.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Code\\GameObjects\\Player.cs",
+              "RelativeToolTip": "Block\\Code\\GameObjects\\Player.cs",
+              "ViewState": "AQIAAMQAAAAAAAAKxPkIwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:53:24.979Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 10,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Program.cs",
               "RelativeDocumentMoniker": "Block\\Program.cs",
               "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Program.cs",
               "RelativeToolTip": "Block\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T09:52:18.285Z",
               "EditorCaption": ""

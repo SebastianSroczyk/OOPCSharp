@@ -37,37 +37,27 @@ namespace Block.Code.GameObjects.Managers
         private List<GameObject> monstersList = new List<GameObject>();
         private List<Vector2> monsterOriginPos = new List<Vector2>();
 
+        public List<GameObject> MonstersList { get {  return monstersList; } }
 
         private void Initialize()
         {
             CurrentNumberOfMonsters = 0;
             CurrentRound = 0;
-            _world = new MyWorld(); 
             _inventoryManager = new InventoryManager();
-            
             playing = true;
         }
 
         public void PlayGame()
         {
             Initialize();
-            MainGameLoop();
+            
 
         }
         private void EndGame()
         {
 
         }
-            
-        private void MainGameLoop()
-        {
-            Transition.Instance.StartTransition();
-            //while (playing)
-            {
-                
-                
-            }
-        }
+        
         private Vector2 PlaceObjects(Vector2 p1, Vector2 p2)
         {
             Random r = new Random();
@@ -92,22 +82,25 @@ namespace Block.Code.GameObjects.Managers
             while (CurrentNumberOfMonsters != CurrentRound)
             {
                 Vector2 pos = PlaceObjects(BoxTopLeft, BoxBottomRight);
-                monstersList.Add(_monsterGen.GenerateMonster());
+                monstersList.Add(_monsterGen.GenerateMonster(pos));
                 monsterOriginPos.Add(pos);
                 CurrentNumberOfMonsters++;
+
+                // there is an index out of range error here...
+                return Tuple.Create(monstersList[CurrentNumberOfMonsters], monsterOriginPos[CurrentNumberOfMonsters]);
             }
 
+            
             // Disables all objects in Object Pool
             foreach (GameObject obj in monstersList)
             {
                 obj.SetActive(false);
                 obj.SetVisible(false);
             }
+            
 
-
-
-            // there is an index out of range error here...
-            return Tuple.Create(monstersList[CurrentNumberOfMonsters], monsterOriginPos[CurrentNumberOfMonsters]);
+            return null;
+            
         }
 
 

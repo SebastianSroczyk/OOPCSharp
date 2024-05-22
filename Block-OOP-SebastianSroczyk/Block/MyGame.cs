@@ -5,10 +5,11 @@ namespace Block
 {
     public class MyGame : Core
     {
+        
+
         protected override void Initialize()
         {
-            GameStateManager gameStateManager = new GameStateManager();
-
+            
             Window.Title = "MyGame";
             // TODO: Add your initialization logic between here...
             Camera.Instance.ClampWithinWorld = true;
@@ -17,7 +18,7 @@ namespace Block
             Settings.LetterboxFill = Color.Black;
             Settings.IsMouseVisible = false;
 
-            gameStateManager.PlayGame();
+            
             // TODO: Use this code to set the initial screen
             StartScreen<MyWorld>();
             base.Initialize();
