@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <BaseOutputPath>C:\Users\Kaktu\Desktop\GamesDevelopment\OOPCSharp\OOP-BlockClollector\StudentGame\libs</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>bin\Debug\net6.0\MonoGameEngine.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="libs\MonoGame.Extended.Content.Pipeline.dll" />
+		<None Remove="libs\MonoGame.Extended.dll" />
+		<None Remove="libs\MonoGame.Extended.Graphics.dll" />
+		<None Remove="libs\MonoGame.Extended.Tiled.dll" />
+		<None Remove="libs\Newtonsoft.Json.dll" />
+		<None Remove="MonoGameEngine - Manual.url" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="MonoGame.Extended">
+			<HintPath>libs\MonoGame.Extended.dll</HintPath>
+		</Reference>
+		<Reference Include="MonoGame.Extended.Content.Pipeline">
+			<HintPath>libs\MonoGame.Extended.Content.Pipeline.dll</HintPath>
+		</Reference>
+		<Reference Include="MonoGame.Extended.Graphics">
+			<HintPath>libs\MonoGame.Extended.Graphics.dll</HintPath>
+		</Reference>
+		<Reference Include="MonoGame.Extended.Tiled">
+			<HintPath>libs\MonoGame.Extended.Tiled.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>libs\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>
