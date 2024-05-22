@@ -1,17 +1,18 @@
 {
   "version": 2,
-<<<<<<< HEAD:Block-OOP-SebastianSroczyk/Block/obj/project.nuget.cache
-  "dgSpecHash": "3DM4ElHPBr7qBiLWZZieGQYpwgGv94ncMwQpYRGIym4LFaAG/2aWn9kyx935UYq8mUJkVEO79iavJDZVY4Ow8g==",
+  "dgSpecHash": "6sAIX4E3NB6jFPmUfdUcexpkDNWxo8yNud/Y7SllbZqMXvzizmhzDfEhed1du5ks2TOREtmSJW2TbVXZG7nI1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\Block\\Block.csproj",
-=======
-  "dgSpecHash": "zcPJgJ7QFCLAMATR68zeTOLA8n+PcwQmN3/PF81GSsxq5GXfeYiagQVLLt32cHqHwAVKAiK8G06YdG39N/xmZg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\StudentGame.csproj",
->>>>>>> 01b0d21af0f97f5a8b9a0a846b5168634694731a:OOP-BlockCollector/StudentGame/obj/project.nuget.cache
+  "projectFilePath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\StudentGame.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
     "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

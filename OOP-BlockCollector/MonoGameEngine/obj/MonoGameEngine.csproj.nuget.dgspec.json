@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:Block-OOP-SebastianSroczyk/MonoGameEngine/obj/MonoGameEngine.csproj.nuget.dgspec.json
-    "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\MonoGameEngine\\MonoGameEngine.csproj": {}
+    "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\MonoGameEngine\\MonoGameEngine.csproj": {
+    "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\MonoGameEngine\\MonoGameEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj",
         "projectName": "MonoGameEngine",
-        "projectPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\MonoGameEngine\\MonoGameEngine.csproj",
+        "projectPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj",
         "packagesPath": "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Block-OOP-SebastianSroczyk\\MonoGameEngine\\obj\\",
-=======
-    "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj",
-        "projectName": "MonoGameEngine",
-        "projectPath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj",
-        "packagesPath": "C:\\Users\\Kaktu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\obj\\",
->>>>>>> 01b0d21af0f97f5a8b9a0a846b5168634694731a:OOP-BlockCollector/MonoGameEngine/obj/MonoGameEngine.csproj.nuget.dgspec.json
+        "outputPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

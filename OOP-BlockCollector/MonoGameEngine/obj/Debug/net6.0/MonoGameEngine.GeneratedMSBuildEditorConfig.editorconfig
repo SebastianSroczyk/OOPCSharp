@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MonoGameEngine
-<<<<<<< HEAD:Block-OOP-SebastianSroczyk/MonoGameEngine/obj/Debug/net6.0/MonoGameEngine.GeneratedMSBuildEditorConfig.editorconfig
-build_property.ProjectDir = C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\Block-OOP-SebastianSroczyk\MonoGameEngine\
-=======
-build_property.ProjectDir = C:\Users\Kaktu\Desktop\GamesDevelopment\OOPCSharp\OOP-BlockCollector\MonoGameEngine\
->>>>>>> 01b0d21af0f97f5a8b9a0a846b5168634694731a:OOP-BlockCollector/MonoGameEngine/obj/Debug/net6.0/MonoGameEngine.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = C:\Users\Sebastian Sroczyk\Desktop\GamesDevelopment\OOPCSharp\OOP-BlockCollector\MonoGameEngine\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

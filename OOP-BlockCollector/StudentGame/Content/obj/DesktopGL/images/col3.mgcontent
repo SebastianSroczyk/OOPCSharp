@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/images/col3.png</SourceFile>
-  <SourceTime>2024-03-07T10:03:24.0455103+00:00</SourceTime>
-  <DestFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Template Project/StudentGame/Content/bin/DesktopGL/images/col3.xnb</DestFile>
-  <DestTime>2024-03-16T15:34:18.1735884+00:00</DestTime>
+  <SourceFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/images/col3.png</SourceFile>
+  <SourceTime>2024-05-22T18:35:32.3412413+01:00</SourceTime>
+  <DestFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/bin/DesktopGL/images/col3.xnb</DestFile>
+  <DestTime>2024-05-22T18:40:29.8320455+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

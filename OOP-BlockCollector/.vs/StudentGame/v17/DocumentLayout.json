@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\oop-blockcollector\\studentgame\\content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}",
+      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\oop-blockcollector\\studentgame\\code\\gameobjects\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\oop-blockcollector\\studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\screens\\myworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\oop-blockcollector\\studentgame\\code\\screens\\myworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\screens\\myworld.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\inventory\\itemgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\oop-blockcollector\\studentgame\\code\\gameobjects\\inventory\\itemgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\inventory\\itemgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\monstergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\monstergen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\oop-blockcollector\\studentgame\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|c:\\users\\sebastian sroczyk\\desktop\\gamesdevelopment\\oopcsharp\\template project\\studentgame\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2AE8789-C71B-48C9-8AC3-AEB357E0D9BC}|StudentGame\\StudentGame.csproj|solutionrelative:studentgame\\code\\gameobjects\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\MonsterGen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,23 +51,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Content.mgcb",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Content\\Content.mgcb",
+              "RelativeDocumentMoniker": "StudentGame\\Content\\Content.mgcb",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Content\\Content.mgcb",
+              "RelativeToolTip": "StudentGame\\Content\\Content.mgcb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-22T17:38:26.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InventoryItem.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
-              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
               "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Inventory\\InventoryItem.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAwA0AAAAvAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T10:00:16.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MyWorld.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\Screens\\MyWorld.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\Screens\\MyWorld.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\Screens\\MyWorld.cs",
-              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\Screens\\MyWorld.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\Screens\\MyWorld.cs",
               "RelativeToolTip": "StudentGame\\Code\\Screens\\MyWorld.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAYwEkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,47 +87,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Monster.cs",
-              "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Monster.cs",
+              "RelativeDocumentMoniker": "..\\Template Project\\StudentGame\\Code\\GameObjects\\Monster.cs",
               "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Monster.cs",
-              "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Monster.cs",
+              "RelativeToolTip": "..\\Template Project\\StudentGame\\Code\\GameObjects\\Monster.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T14:31:41.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Potion.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs",
-              "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs",
+              "RelativeDocumentMoniker": "..\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs",
               "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs",
-              "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs",
+              "RelativeToolTip": "..\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Potion.cs",
               "ViewState": "AQIAAAQAAAAAAAD2ecQkwBMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T13:36:55.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs",
-              "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs",
+              "RelativeDocumentMoniker": "..\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs",
               "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs",
-              "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs",
+              "RelativeToolTip": "..\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\Weapon.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T13:37:26.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Player.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Player.cs",
-              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Player.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Player.cs",
               "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Player.cs",
               "ViewState": "AQIAAK0AAAAAAAAAAAAAAL4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,11 +141,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InventoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
-              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
               "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Inventory\\InventoryManager.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAkwLsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,11 +154,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ItemGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\ItemGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Inventory\\ItemGenerator.cs",
               "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\Inventory\\ItemGenerator.cs",
-              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\Inventory\\ItemGenerator.cs",
+              "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\StudentGame\\Code\\GameObjects\\Inventory\\ItemGenerator.cs",
               "RelativeToolTip": "StudentGame\\Code\\GameObjects\\Inventory\\ItemGenerator.cs",
               "ViewState": "AQIAAEMAAAAAAIB7NVAxwBMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,12 +166,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MonsterGen.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\MonsterGen.cs",
-              "RelativeDocumentMoniker": "StudentGame\\Code\\GameObjects\\MonsterGen.cs",
+              "RelativeDocumentMoniker": "..\\Template Project\\StudentGame\\Code\\GameObjects\\MonsterGen.cs",
               "ToolTip": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\Template Project\\StudentGame\\Code\\GameObjects\\MonsterGen.cs",
-              "RelativeToolTip": "StudentGame\\Code\\GameObjects\\MonsterGen.cs",
+              "RelativeToolTip": "..\\Template Project\\StudentGame\\Code\\GameObjects\\MonsterGen.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T10:49:55.561Z"
