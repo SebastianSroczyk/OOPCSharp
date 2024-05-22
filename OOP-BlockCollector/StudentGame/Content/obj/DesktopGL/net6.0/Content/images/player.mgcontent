@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<<<<<<< HEAD:Block-OOP-SebastianSroczyk/Block/Content/obj/DesktopGL/net6.0/Content/images/Pixel.mgcontent
+  <SourceFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Block-OOP-SebastianSroczyk/Block/Content/images/Pixel.png</SourceFile>
+  <SourceTime>2024-03-07T10:03:24.0988323+00:00</SourceTime>
+  <DestFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Block-OOP-SebastianSroczyk/Block/Content/bin/DesktopGL/Content/images/Pixel.xnb</DestFile>
+  <DestTime>2024-05-14T09:16:54.4225549+01:00</DestTime>
+=======
+  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/player.png</SourceFile>
+  <SourceTime>2024-05-11T13:53:01.1337366+01:00</SourceTime>
+  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/bin/DesktopGL/Content/images/player.xnb</DestFile>
+  <DestTime>2024-05-22T15:36:33.3088399+01:00</DestTime>
+>>>>>>> 01b0d21af0f97f5a8b9a0a846b5168634694731a:OOP-BlockCollector/StudentGame/Content/obj/DesktopGL/net6.0/Content/images/player.mgcontent
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2022-07-26T12:44:56+01:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>255,0,255,255</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>MakeSquare</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

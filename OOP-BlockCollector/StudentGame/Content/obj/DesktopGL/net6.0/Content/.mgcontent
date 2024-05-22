@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/col1.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/col2.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/col3.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/Hero.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/Pixel.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/player.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/potion.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/SimpleBackground.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/Arial.spritefont</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/BackgroundShader.fx</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/ComicSans.spritefont</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/GrayscaleEffect.fx</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/Pixel.png</File>
+    <File>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/SpriteFill.fx</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
