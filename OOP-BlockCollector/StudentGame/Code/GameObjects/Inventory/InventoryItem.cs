@@ -12,6 +12,8 @@ namespace StudentGame.Code.GameObjects.Inventory
         public int Size { get; set; }
         public string Name { get; set; }
 
+        protected float Speed = 10;
+
         public InventoryItem() 
         {
             Size = 0;
@@ -24,14 +26,18 @@ namespace StudentGame.Code.GameObjects.Inventory
             this.Name = name;
         }
 
-        public virtual void Use(Player p)
+        /// <summary>
+        /// This method moves the item.
+        /// </summary>
+        /// <param name="deltaTime"></param>
+        public virtual void Move(float deltaTime)
         {
             
         }
 
         public override void Update(float deltaTime)
         {
-           
+           Move(deltaTime);
         }
     }
 }

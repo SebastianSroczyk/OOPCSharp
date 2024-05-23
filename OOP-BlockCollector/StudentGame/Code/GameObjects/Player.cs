@@ -13,12 +13,17 @@ namespace StudentGame.Code.GameObjects
         private InventoryItem _currentItem { get;set; }
         private Coin _coin { get; set; }
 
-        public int health { get; set; }
-        public int damage { get; set; }
+
         public int Speed {  get; set; }
-        public Vector2 playerPosition{  get; private set; }  
+        public Vector2 PlayerPosition{  get; private set; }
+
+        private bool canMove = true;
+        public bool CanMove { get { return canMove; } set { canMove = value; } }
+
 
         private bool _collect = false;
+        private int score = 0;
+        public int Score { get { return score; } set { score = value; } }
 
         // Default Constructor
         public Player(InventoryManager inventory)
@@ -35,8 +40,6 @@ namespace StudentGame.Code.GameObjects
             _currentItem = null;
 
 
-            health = 100; // initial health value
-            damage = 5;
             Speed = 5;
         }
 
@@ -54,127 +57,158 @@ namespace StudentGame.Code.GameObjects
 
         public override void Update(float deltaTime)
         {
-            playerPosition = new Vector2(GetX(), GetY());
+            PlayerPosition = new Vector2(GetX(), GetY());
             GetInput();
             Collisions();
  
         }
-
+        /// <summary>
+        /// Gets the inputs from the player and moves the player 
+        /// </summary>
         private void GetInput()
         {
-            
-            if(GameInput.IsKeyHeld("a"))
+            if(canMove == true)
             {
-                Vector2 pos = new Vector2();
-                pos.X = GetX() - Speed;
-                pos.Y = GetY();
-
-                SetPosition(pos);
-            }
-
-            if(GameInput.IsKeyHeld("d"))
-            {
-                Vector2 pos = new Vector2();
-                pos.X = GetX() + Speed;
-                pos.Y = GetY();
-
-                SetPosition(pos);
-            }
-
-            if(GameInput.IsKeyHeld("w"))
-            {
-                Vector2 pos = new Vector2();
-                pos.X = GetX();
-                pos.Y = GetY() - Speed;
-
-                SetPosition(pos);
-            }
-
-            if(GameInput.IsKeyHeld("s"))
-            {
-                Vector2 pos = new Vector2();
-                pos.X = GetX();
-                pos.Y = GetY() + Speed;
-
-                SetPosition(pos);
-            }
-
-            //Check to see if the user has indicated collect 
-            // Set a boolean to hold the choice.
-            if(GameInput.IsKeyHeld("e"))
-            {
-                _collect = true;
-            }
-
-            // When the e key is released - turn of the collect flag
-            if(GameInput.IsKeyReleased("e"))
-            {
-                
-                _collect = false;
-            }
-
-            // Display the inventory!
-            if(GameInput.IsKeyPressed("i"))
-            {
-                _inventoryManager.DisplayInventory();
-            }
-
-            if(GameInput.IsKeyReleased("i"))
-            {
-                _inventoryManager.DisplayInventory();
-            }
-
-            if(GameInput.IsKeyPressed("z"))
-            {
-                _currentItem = _inventoryManager.GetPreviousItem();
-            }
-
-            if(GameInput.IsKeyPressed("c"))
-            {
-                _currentItem = _inventoryManager.GetNextItem();
-            }
-
-            // C to drop an Item
-            if(GameInput.IsKeyPressed("x"))
-            {
-                
-                if (!_inventoryManager.CheckIfEmpty())
+                if (GameInput.IsKeyHeld("a"))
                 {
-                    // gets refence for item selected
-                    _inventoryManager.RemoveItem(_currentItem);
-                    DropItem(_currentItem, playerPosition);
-                } 
+                    Vector2 pos = new Vector2();
+                    pos.X = GetX() - Speed;
+                    pos.Y = GetY();
+
+                    SetPosition(pos);
+                }
+
+                if (GameInput.IsKeyHeld("d"))
+                {
+                    Vector2 pos = new Vector2();
+                    pos.X = GetX() + Speed;
+                    pos.Y = GetY();
+
+                    SetPosition(pos);
+                }
+
+                if (GameInput.IsKeyHeld("w"))
+                {
+                    Vector2 pos = new Vector2();
+                    pos.X = GetX();
+                    pos.Y = GetY() - Speed;
+
+                    SetPosition(pos);
+                }
+
+                if (GameInput.IsKeyHeld("s"))
+                {
+                    Vector2 pos = new Vector2();
+                    pos.X = GetX();
+                    pos.Y = GetY() + Speed;
+
+                    SetPosition(pos);
+                }
+
+                //Check to see if the user has indicated collect 
+                // Set a boolean to hold the choice.
+                if (GameInput.IsKeyHeld("e"))
+                {
+                    _collect = true;
+                }
+
+                // When the e key is released - turn of the collect flag
+                if (GameInput.IsKeyReleased("e"))
+                {
+
+                    _collect = false;
+                }
+
+                // Display the inventory!
+                if (GameInput.IsKeyPressed("i"))
+                {
+                    _inventoryManager.DisplayInventory();
+                }
+
+                if (GameInput.IsKeyReleased("i"))
+                {
+                    _inventoryManager.DisplayInventory();
+                }
+
+                if (GameInput.IsKeyPressed("z"))
+                {
+                    _currentItem = _inventoryManager.GetPreviousItem();
+                }
+
+                if (GameInput.IsKeyPressed("c"))
+                {
+                    _currentItem = _inventoryManager.GetNextItem();
+                }
+
+                // C to drop an Item
+                if (GameInput.IsKeyPressed("x"))
+                {
+
+                    if (!_inventoryManager.CheckIfEmpty())
+                    {
+                        // gets refence for item selected
+                        _inventoryManager.RemoveItem(_currentItem);
+                        DropItem(_currentItem, PlayerPosition);
+                    }
+                }
             }
+            
         }
 
+        /// <summary>
+        /// Checks for collisions
+        /// </summary>
         private void Collisions()
         {
             GameObject go = (GameObject) GetOneIntersectingObject<GameObject>();
 
             // If there's a collision with an inventory item then collect it
             // 
-            if(_collect == true && go is InventoryItem) // Check if collision is true and...
+            if(_collect == true && go is InventoryItem) // Check if collision is true and collision object is an inventory item
             {
                 InventoryItem ii = (InventoryItem)go;
+
+                // updates the score on collision
+                UpdateScore(ii);
+
                 PickUpItem(ii);
             }
-
-            
         }
-        /**
-         * Code to pick up an item and add it to the backpack
-         */
+
+        /// <summary>
+        /// Updates the score on collison and pick up
+        /// </summary>
+        /// <param name="ii"></param>
+        private void UpdateScore(InventoryItem ii)
+        {
+            if (ii is Coin)
+            {
+                Coin c = (Coin)ii;
+                Score += c.SellValue;
+            }
+        }
+
+        /// <summary>
+        ///  Pick up items 
+        /// </summary>
+        /// <param name="item"></param>
         public void PickUpItem(InventoryItem item)
         {
             if (_inventoryManager.AddItem(item))
             {
                 item.SetVisible(false); // hide the item because it's now in the inventory
                 item.SetPosition(new Vector2(0, 0)); // Update the position - if we drop it we'll need to change
-                _currentItem = item;
+
+                
                 _collect = false;
             }
         }
 
+        /// <summary>
+        /// Drops items
+        /// </summary>
+        /// <param name="item"></param>
+        /// <param name="playerPos"></param>
         public void DropItem(InventoryItem item, Vector2 playerPos)
         {
             

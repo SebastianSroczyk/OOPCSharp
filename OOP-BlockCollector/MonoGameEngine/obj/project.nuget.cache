@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7dijn2+zgMfxc7sKu12uIBXccXUjaqHnabC8zXhSnZzcAwIFTpnH+MW57hL2q11j+uzhpZFMo5j6Lm051nJFgg==",
+  "dgSpecHash": "XzrpsC1Cb9GRUF4X9f7j+++jfqXmnydHVWf1EXcJjyUoFThSA6uRNNtrWEIxveEGpBhPl59xw5ViSNAZKRXqlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj",
+  "projectFilePath": "C:\\Users\\Kaktu\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\MonoGameEngine.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sebastian Sroczyk\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\Kaktu\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Sebastian Sroczyk\\Desktop\\GamesDevelopment\\OOPCSharp\\OOP-BlockCollector\\MonoGameEngine\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -38,6 +38,9 @@ namespace MonoGameEngine.StandardCore
         private bool _isActive = true;
         private bool _drawDebug = false;
 
+
+        private Vector2 _origin;
+
         /// <summary>
         /// Default constructor for this class.
         /// </summary>
@@ -712,6 +715,17 @@ namespace MonoGameEngine.StandardCore
             ResetBounds();
         }
 
+        public void SetObjectOrigin(float X = 0.5f, float Y = 0.5f)
+        {
+            X = Math.Clamp(X, 0, 1);
+            Y = Math.Clamp(Y, 0, 1);
+
+            GetSprite().SetOrigin(X, Y);
+
+            _origin = new Vector2(X * _bounds.Size.X, Y * _bounds.Size.Y);
+            _bounds.Offset(-X, -Y);
+        }
+
         /// <summary>
         /// A setter function for assigning a new Sprite to visually represent this GameObject.
         /// </summary>
@@ -801,8 +815,8 @@ namespace MonoGameEngine.StandardCore
             // Match the GameObject position to the Rectangle position.
             //if (GetSprite().IsInWorldSpace())
             //{
-                _bounds.X = (int)_position.X;
-                _bounds.Y = (int)_position.Y;
+                _bounds.X = (int)(_position.X - _origin.X);
+                _bounds.Y = (int)(_position.Y - _origin.Y);
             //}
             //else
             //{
@@ -812,8 +826,8 @@ namespace MonoGameEngine.StandardCore
             //}
 
             // Apply offset if necessary to match both center points
-            _bounds.X -= (_bounds.Width - ((int)(GetSprite().GetWidth() * GetSprite().GetScale().X))) / 2;
-            _bounds.Y -= (_bounds.Height - ((int)(GetSprite().GetHeight() * GetSprite().GetScale().Y))) / 2;
+            //_bounds.X -= (_bounds.Width - ((int)(GetSprite().GetWidth() * GetSprite().GetScale().X))) / 2;
+            //_bounds.Y -= (_bounds.Height - ((int)(GetSprite().GetHeight() * GetSprite().GetScale().Y))) / 2;
         }
     }
 }

@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<<<<<<< HEAD:Block-OOP-SebastianSroczyk/Block/Content/obj/DesktopGL/net6.0/Content/misc/SpriteFill.mgcontent
-  <SourceFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Block-OOP-SebastianSroczyk/Block/Content/misc/SpriteFill.fx</SourceFile>
-  <SourceTime>2024-03-07T10:03:24.5543553+00:00</SourceTime>
-  <DestFile>C:/Users/Sebastian Sroczyk/Desktop/GamesDevelopment/OOPCSharp/Block-OOP-SebastianSroczyk/Block/Content/bin/DesktopGL/Content/misc/SpriteFill.xnb</DestFile>
-  <DestTime>2024-05-14T09:16:55.6211722+01:00</DestTime>
-=======
-  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/misc/SpriteFill.fx</SourceFile>
+  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/misc/SpriteFill.fx</SourceFile>
   <SourceTime>2024-01-25T16:06:46.6701891+00:00</SourceTime>
-  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/bin/DesktopGL/Content/misc/SpriteFill.xnb</DestFile>
-  <DestTime>2024-05-22T15:36:34.0747769+01:00</DestTime>
->>>>>>> 01b0d21af0f97f5a8b9a0a846b5168634694731a:OOP-BlockCollector/StudentGame/Content/obj/DesktopGL/net6.0/Content/misc/SpriteFill.mgcontent
+  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/bin/DesktopGL/Content/misc/SpriteFill.xnb</DestFile>
+  <DestTime>2024-05-22T19:13:51.7182242+01:00</DestTime>
   <Importer>EffectImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>EffectProcessor</Processor>

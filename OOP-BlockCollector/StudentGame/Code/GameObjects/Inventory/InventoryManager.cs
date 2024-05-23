@@ -64,6 +64,7 @@ namespace StudentGame.Code.GameObjects.Inventory
             }
             else
             {
+                
                 _inventoryItems[emptySlot] = item;
                 success = true;
             }
@@ -71,15 +72,15 @@ namespace StudentGame.Code.GameObjects.Inventory
             
         }
         
-        /**
-         * Find an empty item slot
-         * Only required if we use an array
-         * A list or map would work without this mechanism
-         */
+        /// <summary>
+        /// Finds an emptry slot in the inventroy and sets the next item slot to that slot
+        /// </summary>
+        /// <returns></returns>
         public int FindEmptyItemSlot()
         {
             int selectedElement = 0;
 
+            // loops through the list
             for(int i = _firstItemIndex; i < _inventorySize; i++)
             {
                 if(_inventoryItems[i] == null)
@@ -90,6 +91,11 @@ namespace StudentGame.Code.GameObjects.Inventory
             }
             return selectedElement;
         }
+
+        /// <summary>
+        /// Checks if the inventory is empty
+        /// </summary>
+        /// <returns></returns>
         public bool CheckIfEmpty()
         {
             int numEmptySlot = 0;
@@ -111,6 +117,10 @@ namespace StudentGame.Code.GameObjects.Inventory
             return false;
         }
 
+        /// <summary>
+        /// Gets the next item
+        /// </summary>
+        /// <returns></returns>
         public InventoryItem GetNextItem()
         {
             _currentItem++;
@@ -124,6 +134,10 @@ namespace StudentGame.Code.GameObjects.Inventory
             return _inventoryItems[_currentItem];
         }
 
+        /// <summary>
+        /// Get the previous item
+        /// </summary>
+        /// <returns></returns>
         public InventoryItem GetPreviousItem()
         {
             _currentItem--;
@@ -133,12 +147,19 @@ namespace StudentGame.Code.GameObjects.Inventory
 
             return _inventoryItems[_currentItem];
         }
+
+        /// <summary>
+        /// Removes the Selected item
+        /// </summary>
+        /// <param name="item"></param>
+        /// <returns></returns>
         public bool RemoveItem(InventoryItem item) 
         {
             _inventoryItems[_currentItem] = item;
             
             bool success = false;
 
+            // checks if item isn't null ( i.e. if slot is populated)
             if (_inventoryItems[_currentItem] == null)
             {
                 success = false;
@@ -153,15 +174,16 @@ namespace StudentGame.Code.GameObjects.Inventory
 
         }
 
-        /**
-         * Remove and item from the inventory - to do this we need a key or an index
-         * the index will indicate which item needs to be removed.
-         * 
-         */
+        /// <summary>
+        /// Removes the item via item Index
+        /// </summary>
+        /// <param name="itemIndex"></param>
+        /// <returns></returns>
         public bool RemoveItem(int itemIndex) 
         {
             bool success = false;
 
+            // checks if item index isn't null ( i.e. if slot is populated)
             if (_inventoryItems[itemIndex] == null)
             {
                 success = false;
@@ -174,11 +196,7 @@ namespace StudentGame.Code.GameObjects.Inventory
 
             return success;
         }
-
-        public InventoryItem TakeItem(int itemIndex)
-        { 
-            return _inventoryItems[itemIndex];
-        }
+            
 
 
         /**
@@ -190,47 +208,80 @@ namespace StudentGame.Code.GameObjects.Inventory
             
         }
 
+        // List of items on screen
         private List<string> _itemTextOnScreen = new List<string>();
 
+        /// <summary>
+        /// Displays the Inventory
+        /// </summary>
         public void DisplayInventory()
         {
+            // toggles display inventory
             _displayInventory = !_displayInventory;
+
+            // checks if inventory is displaying
             if (_displayInventory == true)
             {
+                // adds text to screen
                 AddTextToScreen();
             }
             else
             {
-                Console.WriteLine("Inventory manager removing text");
+                //Console.WriteLine("Inventory manager removing text");
+                // removes text from screen
                 RemoveTextToScreen();
             }
         }
 
+        /// <summary>
+        /// Adds Text to screen
+        /// </summary>
         private void AddTextToScreen()
         {
-            GetScreen().AddText("Title", new Text("Inventory"), 100, 100);
+            // adds text to screen
+            GetScreen().AddText("Inventory", new Text("Inventory"), 100, 100);
 
+            // loops for the length of items in inventory
             for (int i = _firstItemIndex; i < _inventoryItems.Length; i++)
             {
+                // checks if items arn't null
                 if (_inventoryItems[i] != null)
                 {
+                    // sets the item id
                     string id = _inventoryItems[i].GetHashCode().ToString(); // Get a unique reference for the item
+                    // adds itm if to lsit of items ojn screen
                     _itemTextOnScreen.Add(id);
+                    // check if index is the current item
                     if (i == _currentItem)
+                    {
+                        // adds text 
                         GetScreen().AddText(id, new Text(_inventoryItems[i].Name, new Color(255, 0, 0)), 100, 200 + (i * 20));
+                    }
                     else
+                    {
+                        // adds text 
                         GetScreen().AddText(id, new Text(_inventoryItems[i].Name), 100, 200 + (i * 20));
+                    }
+                        
                 }
             }
         }
 
+        /// <summary>
+        /// Removes the text from the screen
+        /// </summary>
         private void RemoveTextToScreen()
         {
-            GetScreen().RemoveText("Title");
+            //removes the "Inventory" text from screen
+            GetScreen().RemoveText("Inventory");
+
+            // Loops thorugh all items in the list 
             foreach (var item in _itemTextOnScreen)
             {
+                // removes said items 
                 GetScreen().RemoveText(item);
             }
+            // clears the list
             _itemTextOnScreen.Clear();
         }
         

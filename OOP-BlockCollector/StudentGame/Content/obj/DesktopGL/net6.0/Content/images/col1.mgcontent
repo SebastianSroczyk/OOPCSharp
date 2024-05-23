@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/images/col1.png</SourceFile>
+  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/images/col1.png</SourceFile>
   <SourceTime>2024-01-25T16:06:46.6681814+00:00</SourceTime>
-  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockClollector/StudentGame/Content/bin/DesktopGL/Content/images/col1.xnb</DestFile>
-  <DestTime>2024-05-22T15:36:33.2977933+01:00</DestTime>
+  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/bin/DesktopGL/Content/images/col1.xnb</DestFile>
+  <DestTime>2024-05-22T19:13:51.0858181+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

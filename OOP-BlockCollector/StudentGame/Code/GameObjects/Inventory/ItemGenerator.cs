@@ -8,8 +8,7 @@ namespace StudentGame.Code.GameObjects.Inventory
 {
     internal class ItemGenerator
     {
-        private string[] coinName = { "Bronze", "Silver", "Gold" };  // Random name options
-        private Coin coin = new Coin();
+        private string[] coinName = { "Bronze Coin", "Silver Coin", "Gold Coin" };  // Random name options
 
         public int objectXPos { get; private set; } // The location the coins will spawn from
         public int objectYPos { get; private set; }
@@ -20,14 +19,12 @@ namespace StudentGame.Code.GameObjects.Inventory
             objectXPos = 100;
             objectYPos = 100;
             numItemsInPotionArray = coinName.Length;
-
-
-            if (coinName.Length != coin.CoinValue.Length)
-            {
-                throw new ArgumentOutOfRangeException("Either the length of the potion arrays or weapon arrays don't match.");
-            }
         }
 
+        /// <summary>
+        /// Generates Coin
+        /// </summary>
+        /// <returns></returns>
         public Coin GenerateCoin()
         {
             Random r = new Random();
@@ -40,6 +37,11 @@ namespace StudentGame.Code.GameObjects.Inventory
 
             return p;
         }
+        /// <summary>
+        /// Generates Coin (Override) with spwan location
+        /// </summary>
+        /// <param name="spawnLocation"></param>
+        /// <returns></returns>
         public Coin GenerateCoin(Vector2 spawnLocation)
         {
             Random r = new Random();

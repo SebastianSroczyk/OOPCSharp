@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/images/potion.png</SourceFile>
-  <SourceTime>2024-05-11T13:53:01.1337366+01:00</SourceTime>
-  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/bin/DesktopGL/Content/images/potion.xnb</DestFile>
-  <DestTime>2024-05-22T19:13:51.0971886+01:00</DestTime>
+  <SourceFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/images/GoldCoin.png</SourceFile>
+  <SourceTime>2024-05-22T18:41:21.9811233+01:00</SourceTime>
+  <DestFile>C:/Users/Kaktu/Desktop/GamesDevelopment/OOPCSharp/OOP-BlockCollector/StudentGame/Content/bin/DesktopGL/Content/images/GoldCoin.xnb</DestFile>
+  <DestTime>2024-05-22T19:13:51.0911095+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T12:44:56+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
